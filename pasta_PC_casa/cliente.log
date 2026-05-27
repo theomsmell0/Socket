@@ -1,0 +1,833 @@
+2026-05-27 14:52:42,690 - INFO - Iniciando serviço do PC_casa...
+2026-05-27 14:52:42,706 - INFO - Interface atualizada. Tema aplicado: DARK
+2026-05-27 14:52:42,707 - WARNING - Servidor offline. Nova tentativa em 5 segundos.
+2026-05-27 14:54:55,742 - INFO - Iniciando serviço do PC_casa...
+2026-05-27 14:54:55,782 - INFO - Interface atualizada. Tema aplicado: DARK
+2026-05-27 14:55:35,790 - INFO - Servidor indicou nova versão. Iniciando download pela porta 8020.
+2026-05-27 14:55:35,790 - INFO - Download concluído com sucesso. Aplicando nova configuração...
+2026-05-27 14:55:35,794 - INFO - Interface atualizada. Tema aplicado: OCEAN
+2026-05-27 14:57:10,812 - INFO - Servidor indicou nova versão. Iniciando download pela porta 8020.
+2026-05-27 14:57:10,813 - INFO - Download concluído com sucesso. Aplicando nova configuração...
+2026-05-27 14:57:10,816 - INFO - Interface atualizada. Tema aplicado: MATRIX
+2026-05-27 15:20:03,434 - INFO - === SESSÃO INICIADA: PC_casa ===
+2026-05-27 15:20:03,437 - INFO - Interface atualizada no terminal. Tema aplicado: MATRIX
+2026-05-27 15:20:03,438 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54926
+2026-05-27 15:20:03,438 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:20:08,439 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54942
+2026-05-27 15:20:08,440 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:20:13,440 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 55398
+2026-05-27 15:20:13,441 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:20:18,441 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 55418
+2026-05-27 15:20:18,442 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:20:23,443 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38244
+2026-05-27 15:20:23,443 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:20:28,444 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38260
+2026-05-27 15:20:28,444 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:20:33,445 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59458
+2026-05-27 15:20:33,446 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:20:38,447 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59476
+2026-05-27 15:20:38,448 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:20:43,448 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 36186
+2026-05-27 15:20:43,449 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:20:48,450 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 36200
+2026-05-27 15:20:48,451 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:20:53,451 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48074
+2026-05-27 15:20:53,452 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:20:58,452 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48094
+2026-05-27 15:20:58,453 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:21:03,454 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54790
+2026-05-27 15:21:03,454 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:21:08,455 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54822
+2026-05-27 15:21:08,455 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:21:13,456 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 51608
+2026-05-27 15:21:13,456 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:21:18,457 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 51632
+2026-05-27 15:21:18,457 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:21:23,458 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 36896
+2026-05-27 15:21:23,459 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:21:28,459 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 36914
+2026-05-27 15:21:28,460 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:21:33,461 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48962
+2026-05-27 15:21:33,462 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:21:38,463 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48980
+2026-05-27 15:21:38,463 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:21:43,464 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40812
+2026-05-27 15:21:43,464 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:21:48,465 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40826
+2026-05-27 15:21:48,465 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:21:53,466 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 56754
+2026-05-27 15:21:53,466 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:21:58,467 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 56776
+2026-05-27 15:21:58,467 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:22:03,468 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53306
+2026-05-27 15:22:03,468 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:22:08,469 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53336
+2026-05-27 15:22:08,469 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:22:13,470 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34176
+2026-05-27 15:22:13,470 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:22:18,471 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34194
+2026-05-27 15:22:18,471 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:22:23,472 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34556
+2026-05-27 15:22:23,472 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:22:28,473 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34584
+2026-05-27 15:22:28,473 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:22:33,474 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46192
+2026-05-27 15:22:33,474 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:22:38,475 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46220
+2026-05-27 15:22:38,475 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:22:43,476 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39684
+2026-05-27 15:22:43,476 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:22:48,477 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39692
+2026-05-27 15:22:48,477 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:22:53,478 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39932
+2026-05-27 15:22:53,478 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:22:58,478 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39952
+2026-05-27 15:22:58,479 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:23:03,479 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53378
+2026-05-27 15:23:03,479 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:23:08,480 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53394
+2026-05-27 15:23:08,480 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:23:13,481 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60002
+2026-05-27 15:23:13,482 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:23:18,482 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60032
+2026-05-27 15:23:18,483 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:23:23,483 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 50828
+2026-05-27 15:23:23,484 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:23:28,484 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 50844
+2026-05-27 15:23:28,484 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:23:33,485 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34052
+2026-05-27 15:23:33,485 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:23:38,486 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34070
+2026-05-27 15:23:38,487 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:23:43,487 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53754
+2026-05-27 15:23:43,488 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:23:48,488 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53768
+2026-05-27 15:23:48,489 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:23:53,489 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42522
+2026-05-27 15:23:53,490 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:23:58,490 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42550
+2026-05-27 15:23:58,490 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:24:03,491 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42586
+2026-05-27 15:24:03,491 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:24:08,492 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42592
+2026-05-27 15:24:08,492 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:24:13,492 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 58368
+2026-05-27 15:24:13,493 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:24:18,493 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 58378
+2026-05-27 15:24:18,494 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:24:23,494 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37996
+2026-05-27 15:24:23,495 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:24:28,495 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38014
+2026-05-27 15:24:28,496 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:24:33,497 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 51862
+2026-05-27 15:24:33,497 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:24:38,498 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 51878
+2026-05-27 15:24:38,498 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:24:43,499 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 57546
+2026-05-27 15:24:43,500 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:24:48,500 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 57572
+2026-05-27 15:24:48,501 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:24:53,501 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37590
+2026-05-27 15:24:53,502 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:24:58,502 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37606
+2026-05-27 15:24:58,503 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:25:03,504 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34448
+2026-05-27 15:25:03,504 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:25:08,505 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34474
+2026-05-27 15:25:08,505 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:25:13,506 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38026
+2026-05-27 15:25:13,506 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:25:18,507 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38034
+2026-05-27 15:25:18,507 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:25:23,508 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59650
+2026-05-27 15:25:23,508 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:25:28,509 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59670
+2026-05-27 15:25:28,509 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:25:33,510 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 51578
+2026-05-27 15:25:33,513 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:25:38,514 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 51600
+2026-05-27 15:25:38,514 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:25:43,515 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37188
+2026-05-27 15:25:43,515 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:25:48,516 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37210
+2026-05-27 15:25:48,517 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:25:53,518 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 47862
+2026-05-27 15:25:53,518 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:25:58,519 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 47884
+2026-05-27 15:25:58,519 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:26:03,520 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37036
+2026-05-27 15:26:03,520 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:26:08,520 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37056
+2026-05-27 15:26:08,521 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:26:13,521 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53600
+2026-05-27 15:26:13,522 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:26:18,522 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53630
+2026-05-27 15:26:18,522 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:26:23,523 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48616
+2026-05-27 15:26:23,523 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:26:28,524 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48642
+2026-05-27 15:26:28,524 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:26:33,525 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39780
+2026-05-27 15:26:33,525 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:26:38,526 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39794
+2026-05-27 15:26:38,526 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:26:43,526 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40526
+2026-05-27 15:26:43,527 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:26:48,527 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40548
+2026-05-27 15:26:48,528 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:26:53,528 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 33554
+2026-05-27 15:26:53,528 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:26:58,529 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 33574
+2026-05-27 15:26:58,529 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:27:03,530 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35006
+2026-05-27 15:27:03,530 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:27:08,531 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35028
+2026-05-27 15:27:08,532 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:27:13,533 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42718
+2026-05-27 15:27:13,533 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:27:18,534 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42732
+2026-05-27 15:27:18,534 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:27:23,535 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46750
+2026-05-27 15:27:23,535 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:27:28,536 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46768
+2026-05-27 15:27:28,537 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:27:33,538 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39234
+2026-05-27 15:27:33,538 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:27:38,539 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39240
+2026-05-27 15:27:38,540 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:27:43,540 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52260
+2026-05-27 15:27:43,541 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:27:48,542 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52278
+2026-05-27 15:27:48,542 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:27:53,543 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 36228
+2026-05-27 15:27:53,543 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:27:58,544 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 36246
+2026-05-27 15:27:58,544 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:28:03,545 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 56908
+2026-05-27 15:28:03,545 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:28:08,546 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 56930
+2026-05-27 15:28:08,546 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:28:13,547 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 50098
+2026-05-27 15:28:13,547 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:28:18,548 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 50122
+2026-05-27 15:28:18,548 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:28:23,549 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43692
+2026-05-27 15:28:23,550 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:28:28,550 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43708
+2026-05-27 15:28:28,551 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:28:33,552 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60616
+2026-05-27 15:28:33,552 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:28:38,553 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60624
+2026-05-27 15:28:38,554 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:28:43,554 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 47268
+2026-05-27 15:28:43,555 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:28:48,555 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 47296
+2026-05-27 15:28:48,556 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:28:53,556 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52506
+2026-05-27 15:28:53,559 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:28:58,560 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52528
+2026-05-27 15:28:58,560 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:29:03,561 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 57814
+2026-05-27 15:29:03,561 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:29:08,562 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 57828
+2026-05-27 15:29:08,562 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:29:13,563 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 33284
+2026-05-27 15:29:13,564 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:29:18,564 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 33310
+2026-05-27 15:29:18,565 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:29:23,565 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38212
+2026-05-27 15:29:23,566 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:29:28,567 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38236
+2026-05-27 15:29:28,567 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:29:33,568 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53978
+2026-05-27 15:29:33,568 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:29:38,569 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53994
+2026-05-27 15:29:38,569 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:29:43,569 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35778
+2026-05-27 15:29:43,570 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:29:48,570 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35806
+2026-05-27 15:29:48,570 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:29:53,571 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53026
+2026-05-27 15:29:53,571 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:29:58,571 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53050
+2026-05-27 15:29:58,572 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:30:03,572 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42920
+2026-05-27 15:30:03,573 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:30:08,574 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42948
+2026-05-27 15:30:08,574 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:30:13,575 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54142
+2026-05-27 15:30:13,575 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:30:18,575 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54146
+2026-05-27 15:30:18,576 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:30:23,576 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59830
+2026-05-27 15:30:23,577 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:30:28,578 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59838
+2026-05-27 15:30:28,578 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:30:33,579 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46160
+2026-05-27 15:30:33,579 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:30:38,580 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46176
+2026-05-27 15:30:38,581 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:30:43,582 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59298
+2026-05-27 15:30:43,582 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:30:48,583 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59324
+2026-05-27 15:30:48,584 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:30:53,584 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 36982
+2026-05-27 15:30:53,584 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:30:58,585 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37010
+2026-05-27 15:30:58,585 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:31:03,586 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34638
+2026-05-27 15:31:03,586 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:31:08,586 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34648
+2026-05-27 15:31:08,587 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:31:13,587 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41116
+2026-05-27 15:31:13,587 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:31:18,587 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41136
+2026-05-27 15:31:18,588 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:31:23,588 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59090
+2026-05-27 15:31:23,588 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:31:28,589 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59098
+2026-05-27 15:31:28,590 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:31:33,590 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53654
+2026-05-27 15:31:33,590 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:31:38,591 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53672
+2026-05-27 15:31:38,591 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:31:43,592 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34632
+2026-05-27 15:31:43,592 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:31:48,593 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34648
+2026-05-27 15:31:48,593 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:31:53,594 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 33444
+2026-05-27 15:31:53,594 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:31:58,594 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 33452
+2026-05-27 15:31:58,595 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:32:03,595 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40030
+2026-05-27 15:32:03,596 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:32:08,596 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40060
+2026-05-27 15:32:08,597 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:32:13,597 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41872
+2026-05-27 15:32:13,598 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:32:18,598 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41894
+2026-05-27 15:32:18,599 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:32:23,599 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 33578
+2026-05-27 15:32:23,599 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:32:28,600 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 33602
+2026-05-27 15:32:28,600 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:32:33,600 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43930
+2026-05-27 15:32:33,601 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:32:38,601 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43946
+2026-05-27 15:32:38,602 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:32:43,602 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 44322
+2026-05-27 15:32:43,603 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:32:48,603 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 44332
+2026-05-27 15:32:48,604 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:32:53,604 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 50000
+2026-05-27 15:32:53,605 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:32:58,605 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 50006
+2026-05-27 15:32:58,606 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:33:03,606 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41010
+2026-05-27 15:33:03,607 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:33:08,607 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41038
+2026-05-27 15:33:08,608 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:33:13,608 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54162
+2026-05-27 15:33:13,609 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:33:18,609 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54180
+2026-05-27 15:33:18,610 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:33:23,610 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 56376
+2026-05-27 15:33:23,611 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:33:28,611 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 56390
+2026-05-27 15:33:28,612 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:33:33,612 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53184
+2026-05-27 15:33:33,613 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:33:38,613 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53194
+2026-05-27 15:33:38,614 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:33:43,614 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 56376
+2026-05-27 15:33:43,615 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:33:48,615 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 56392
+2026-05-27 15:33:48,616 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:33:53,616 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 36486
+2026-05-27 15:33:53,616 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:33:58,617 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 36504
+2026-05-27 15:33:58,617 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:34:03,618 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46492
+2026-05-27 15:34:03,618 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:34:08,619 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46518
+2026-05-27 15:34:08,619 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:34:13,620 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 49368
+2026-05-27 15:34:13,620 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:34:18,620 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 49398
+2026-05-27 15:34:18,621 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:34:23,621 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 45172
+2026-05-27 15:34:23,621 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:34:28,622 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 45194
+2026-05-27 15:34:28,622 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:34:33,622 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34612
+2026-05-27 15:34:33,623 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:34:38,623 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34626
+2026-05-27 15:34:38,624 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:34:43,624 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37500
+2026-05-27 15:34:43,625 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:34:48,625 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37514
+2026-05-27 15:34:48,626 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:34:53,626 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 49834
+2026-05-27 15:34:53,627 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:34:58,627 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 49854
+2026-05-27 15:34:58,628 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:35:03,628 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48194
+2026-05-27 15:35:03,629 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:35:08,629 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48220
+2026-05-27 15:35:08,629 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:35:13,630 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 33184
+2026-05-27 15:35:13,631 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:35:18,631 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 33196
+2026-05-27 15:35:18,631 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:35:23,632 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37914
+2026-05-27 15:35:23,632 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:35:28,633 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37940
+2026-05-27 15:35:28,633 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:35:33,634 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48278
+2026-05-27 15:35:33,634 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:35:38,635 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48296
+2026-05-27 15:35:38,636 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:35:43,636 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 51748
+2026-05-27 15:35:43,637 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:35:48,637 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 51764
+2026-05-27 15:35:48,638 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:35:53,639 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 57464
+2026-05-27 15:35:53,639 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:35:58,640 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 57468
+2026-05-27 15:35:58,641 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:36:03,642 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54072
+2026-05-27 15:36:03,642 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:36:08,643 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54088
+2026-05-27 15:36:08,644 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:36:13,644 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37358
+2026-05-27 15:36:13,644 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:36:18,645 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37368
+2026-05-27 15:36:18,645 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:36:23,646 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 47972
+2026-05-27 15:36:23,647 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:36:28,647 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 47984
+2026-05-27 15:36:28,648 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:36:33,648 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 56012
+2026-05-27 15:36:33,649 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:36:38,650 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 56030
+2026-05-27 15:36:38,651 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:36:43,651 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35204
+2026-05-27 15:36:43,651 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:36:48,652 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35214
+2026-05-27 15:36:48,652 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:36:53,653 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52244
+2026-05-27 15:36:53,653 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:36:58,654 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52250
+2026-05-27 15:36:58,654 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:37:03,655 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 50100
+2026-05-27 15:37:03,655 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:37:08,656 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 50122
+2026-05-27 15:37:08,656 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:37:13,657 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46260
+2026-05-27 15:37:13,657 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:37:18,658 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46264
+2026-05-27 15:37:18,659 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:37:23,659 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48206
+2026-05-27 15:37:23,660 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:37:28,661 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48228
+2026-05-27 15:37:28,661 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:37:33,662 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40490
+2026-05-27 15:37:33,662 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:37:38,663 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40500
+2026-05-27 15:37:38,663 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:37:43,664 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 57064
+2026-05-27 15:37:43,664 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:37:48,665 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 57084
+2026-05-27 15:37:48,665 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:37:53,666 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53982
+2026-05-27 15:37:53,666 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:37:58,667 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54002
+2026-05-27 15:37:58,667 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:38:03,668 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48162
+2026-05-27 15:38:03,668 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:38:08,669 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48190
+2026-05-27 15:38:08,669 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:38:13,669 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46354
+2026-05-27 15:38:13,670 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:38:18,670 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46368
+2026-05-27 15:38:18,671 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:38:23,671 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34654
+2026-05-27 15:38:23,671 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:38:28,672 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34682
+2026-05-27 15:38:28,672 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:38:33,673 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52398
+2026-05-27 15:38:33,673 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:38:38,674 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52408
+2026-05-27 15:38:38,674 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:38:43,675 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54948
+2026-05-27 15:38:43,675 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:38:48,675 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54972
+2026-05-27 15:38:48,676 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:38:53,676 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 45706
+2026-05-27 15:38:53,677 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:38:58,677 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 45728
+2026-05-27 15:38:58,677 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:39:03,678 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53432
+2026-05-27 15:39:03,679 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:39:08,679 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53440
+2026-05-27 15:39:08,680 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:39:13,681 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37004
+2026-05-27 15:39:13,681 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:39:18,682 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37008
+2026-05-27 15:39:18,682 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:39:23,683 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 57308
+2026-05-27 15:39:23,683 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:39:28,683 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 57332
+2026-05-27 15:39:28,684 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:39:33,684 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60612
+2026-05-27 15:39:33,685 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:39:38,685 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60642
+2026-05-27 15:39:38,685 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:39:43,686 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42638
+2026-05-27 15:39:43,686 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:39:48,687 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42644
+2026-05-27 15:39:48,687 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:39:53,688 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38032
+2026-05-27 15:39:53,688 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:39:58,689 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38050
+2026-05-27 15:39:58,689 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:40:03,690 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35030
+2026-05-27 15:40:03,691 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:40:08,691 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35048
+2026-05-27 15:40:08,692 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:40:13,692 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35612
+2026-05-27 15:40:13,693 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:40:18,693 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35642
+2026-05-27 15:40:18,694 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:40:23,694 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38954
+2026-05-27 15:40:23,695 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:40:28,696 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38984
+2026-05-27 15:40:28,696 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:40:33,697 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48196
+2026-05-27 15:40:33,697 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:40:38,698 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48214
+2026-05-27 15:40:38,699 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:40:43,699 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46362
+2026-05-27 15:40:43,700 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:40:48,701 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46378
+2026-05-27 15:40:48,701 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:40:53,702 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38342
+2026-05-27 15:40:53,702 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:40:58,703 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38356
+2026-05-27 15:40:58,703 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:41:03,704 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37696
+2026-05-27 15:41:03,704 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:41:08,705 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37714
+2026-05-27 15:41:08,705 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:41:13,705 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40124
+2026-05-27 15:41:13,706 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:41:18,706 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40138
+2026-05-27 15:41:18,706 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:41:23,707 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46906
+2026-05-27 15:41:23,707 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:41:28,708 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46938
+2026-05-27 15:41:28,708 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:41:33,709 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59792
+2026-05-27 15:41:33,710 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:41:38,710 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59814
+2026-05-27 15:41:38,710 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:41:43,711 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53944
+2026-05-27 15:41:43,711 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:41:48,712 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53962
+2026-05-27 15:41:48,712 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:41:53,713 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39630
+2026-05-27 15:41:53,713 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:41:58,714 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39646
+2026-05-27 15:41:58,714 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:42:03,715 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34082
+2026-05-27 15:42:03,715 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:42:08,716 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34098
+2026-05-27 15:42:08,716 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:42:13,717 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41436
+2026-05-27 15:42:13,717 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:42:18,718 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41448
+2026-05-27 15:42:18,718 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:42:23,719 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54490
+2026-05-27 15:42:23,719 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:42:28,719 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54500
+2026-05-27 15:42:28,720 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:42:33,720 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 49390
+2026-05-27 15:42:33,721 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:42:38,721 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 49412
+2026-05-27 15:42:38,722 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:42:43,722 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35742
+2026-05-27 15:42:43,723 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:42:48,723 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35764
+2026-05-27 15:42:48,723 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:42:53,724 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 47252
+2026-05-27 15:42:53,724 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:42:58,725 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 47280
+2026-05-27 15:42:58,725 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:43:03,726 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37414
+2026-05-27 15:43:03,726 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:43:08,727 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37436
+2026-05-27 15:43:08,727 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:43:13,728 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54326
+2026-05-27 15:43:13,728 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:43:18,729 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54332
+2026-05-27 15:43:18,730 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:43:23,730 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46594
+2026-05-27 15:43:23,731 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:43:28,731 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46610
+2026-05-27 15:43:28,732 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:43:33,733 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48314
+2026-05-27 15:43:33,733 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:43:38,734 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48338
+2026-05-27 15:43:38,734 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:43:43,735 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 36442
+2026-05-27 15:43:43,736 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:43:48,736 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 36460
+2026-05-27 15:43:48,737 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:43:53,737 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 45854
+2026-05-27 15:43:53,738 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:43:58,738 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 45878
+2026-05-27 15:43:58,739 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:44:03,739 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 50776
+2026-05-27 15:44:03,740 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:44:08,740 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 50796
+2026-05-27 15:44:08,741 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:44:13,742 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54870
+2026-05-27 15:44:13,742 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:44:18,743 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54896
+2026-05-27 15:44:18,743 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:44:23,744 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53736
+2026-05-27 15:44:23,744 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:44:28,745 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 53748
+2026-05-27 15:44:28,745 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:44:33,746 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 47786
+2026-05-27 15:44:33,746 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:44:38,747 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 47808
+2026-05-27 15:44:38,747 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:44:43,747 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34990
+2026-05-27 15:44:43,748 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:44:48,748 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34996
+2026-05-27 15:44:48,749 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:44:53,749 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35050
+2026-05-27 15:44:53,750 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:44:58,750 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 35076
+2026-05-27 15:44:58,750 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:45:03,751 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42912
+2026-05-27 15:45:03,752 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:45:08,753 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42934
+2026-05-27 15:45:08,753 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:45:13,754 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52006
+2026-05-27 15:45:13,754 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:45:18,755 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52010
+2026-05-27 15:45:18,755 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:45:23,756 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60342
+2026-05-27 15:45:23,757 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:45:28,757 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60362
+2026-05-27 15:45:28,758 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:45:33,758 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60426
+2026-05-27 15:45:33,759 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:45:38,759 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60446
+2026-05-27 15:45:38,760 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:45:43,761 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38988
+2026-05-27 15:45:43,761 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:45:48,762 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39006
+2026-05-27 15:45:48,762 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:45:53,763 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52838
+2026-05-27 15:45:53,763 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:45:58,764 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52852
+2026-05-27 15:45:58,764 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:46:03,765 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37750
+2026-05-27 15:46:03,766 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:46:08,766 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37760
+2026-05-27 15:46:08,767 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:46:13,768 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39726
+2026-05-27 15:46:13,768 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:46:18,769 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39748
+2026-05-27 15:46:18,770 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:46:23,770 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43906
+2026-05-27 15:46:23,771 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:46:28,772 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43926
+2026-05-27 15:46:28,772 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:46:33,773 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43130
+2026-05-27 15:46:33,773 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:46:38,774 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43152
+2026-05-27 15:46:38,774 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:46:43,775 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 44940
+2026-05-27 15:46:43,775 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:46:48,776 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 44946
+2026-05-27 15:46:48,776 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:46:53,777 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42500
+2026-05-27 15:46:53,777 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:46:58,778 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42514
+2026-05-27 15:46:58,778 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:47:03,779 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 50164
+2026-05-27 15:47:03,779 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:47:08,780 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 50184
+2026-05-27 15:47:08,780 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:47:13,781 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 51090
+2026-05-27 15:47:13,781 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:47:18,782 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 51112
+2026-05-27 15:47:18,782 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:47:23,783 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40846
+2026-05-27 15:47:23,784 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:47:28,784 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40866
+2026-05-27 15:47:28,785 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:47:33,786 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 58666
+2026-05-27 15:47:33,786 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:47:38,787 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 58688
+2026-05-27 15:47:38,787 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:47:43,788 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40958
+2026-05-27 15:47:43,788 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:47:48,789 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40972
+2026-05-27 15:47:48,790 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:47:53,790 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37988
+2026-05-27 15:47:53,791 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:47:58,791 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38014
+2026-05-27 15:47:58,791 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:48:03,792 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38188
+2026-05-27 15:48:03,792 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:48:08,793 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 38202
+2026-05-27 15:48:08,794 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:48:13,794 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48448
+2026-05-27 15:48:13,795 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:48:18,795 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48468
+2026-05-27 15:48:18,796 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:48:23,797 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43624
+2026-05-27 15:48:23,797 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:48:28,797 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43634
+2026-05-27 15:48:28,798 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:48:33,798 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 33292
+2026-05-27 15:48:33,799 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:48:38,799 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 33318
+2026-05-27 15:48:38,799 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:48:43,800 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34612
+2026-05-27 15:48:43,801 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:48:48,801 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 34636
+2026-05-27 15:48:48,802 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:48:53,802 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 49964
+2026-05-27 15:48:53,803 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:48:58,804 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 49986
+2026-05-27 15:48:58,804 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:49:03,805 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60874
+2026-05-27 15:49:03,805 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:49:08,806 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60890
+2026-05-27 15:49:08,806 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:49:13,807 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37894
+2026-05-27 15:49:13,807 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:49:18,808 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37900
+2026-05-27 15:49:18,808 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:49:23,809 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41144
+2026-05-27 15:49:23,809 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:49:28,810 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41164
+2026-05-27 15:49:28,810 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:49:33,811 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 57764
+2026-05-27 15:49:33,811 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:49:38,812 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 57776
+2026-05-27 15:49:38,812 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:49:43,813 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40584
+2026-05-27 15:49:43,813 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:49:48,814 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40606
+2026-05-27 15:49:48,814 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:49:53,814 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 58474
+2026-05-27 15:49:53,815 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:49:58,815 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 58498
+2026-05-27 15:49:58,816 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:50:03,817 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42612
+2026-05-27 15:50:03,817 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:50:08,818 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 42634
+2026-05-27 15:50:08,818 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:50:13,819 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41582
+2026-05-27 15:50:13,819 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:50:18,820 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41602
+2026-05-27 15:50:18,821 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:50:23,821 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43662
+2026-05-27 15:50:23,822 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:50:28,823 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43692
+2026-05-27 15:50:28,823 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:50:33,824 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52954
+2026-05-27 15:50:33,824 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:50:38,825 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 52966
+2026-05-27 15:50:38,826 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:50:43,826 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 49498
+2026-05-27 15:50:43,827 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:50:48,828 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 49504
+2026-05-27 15:50:48,828 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:50:53,829 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48046
+2026-05-27 15:50:53,829 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:50:58,830 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 48064
+2026-05-27 15:50:58,830 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:51:03,831 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59034
+2026-05-27 15:51:03,831 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:51:08,832 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59042
+2026-05-27 15:51:08,832 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:51:13,833 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 55922
+2026-05-27 15:51:13,833 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:51:18,834 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 55946
+2026-05-27 15:51:18,835 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:51:23,835 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59166
+2026-05-27 15:51:23,836 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:51:28,837 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 59180
+2026-05-27 15:51:28,838 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:51:33,838 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54554
+2026-05-27 15:51:33,839 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:51:38,839 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54572
+2026-05-27 15:51:38,840 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:51:43,840 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54158
+2026-05-27 15:51:43,841 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:51:48,842 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54172
+2026-05-27 15:51:48,842 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:51:53,843 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60228
+2026-05-27 15:51:53,844 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:51:58,844 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 60246
+2026-05-27 15:51:58,845 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:52:03,845 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 45432
+2026-05-27 15:52:03,845 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:52:08,846 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 45460
+2026-05-27 15:52:08,846 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:52:13,847 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41046
+2026-05-27 15:52:13,847 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:52:18,848 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 41066
+2026-05-27 15:52:18,848 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:52:23,849 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 47052
+2026-05-27 15:52:23,849 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:52:28,850 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 47062
+2026-05-27 15:52:28,851 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:52:33,851 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37390
+2026-05-27 15:52:33,852 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:52:38,852 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37408
+2026-05-27 15:52:38,853 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:52:43,854 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37756
+2026-05-27 15:52:43,854 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:52:48,855 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 37774
+2026-05-27 15:52:48,855 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:52:53,856 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 58778
+2026-05-27 15:52:53,857 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:52:58,857 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 58790
+2026-05-27 15:52:58,858 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:53:03,858 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43572
+2026-05-27 15:53:03,859 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:53:08,860 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 43588
+2026-05-27 15:53:08,860 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:53:13,861 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 51372
+2026-05-27 15:53:13,862 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:53:18,862 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 51380
+2026-05-27 15:53:18,863 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:53:23,863 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40968
+2026-05-27 15:53:23,864 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:53:28,864 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 40972
+2026-05-27 15:53:28,864 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:53:33,865 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46128
+2026-05-27 15:53:33,866 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:53:38,866 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 46138
+2026-05-27 15:53:38,867 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:53:43,867 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 44062
+2026-05-27 15:53:43,868 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:53:48,868 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 44090
+2026-05-27 15:53:48,869 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:53:53,869 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 55130
+2026-05-27 15:53:53,869 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:53:58,870 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 55148
+2026-05-27 15:53:58,870 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:54:03,871 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39606
+2026-05-27 15:54:03,871 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 15:54:08,871 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 39624
+2026-05-27 15:54:08,872 - INFO - Nenhuma atualização pendente (Status 304).
