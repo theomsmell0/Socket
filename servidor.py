@@ -1,111 +1,76 @@
 import socket
-import json
-import struct
-import hashlib
 import os
+import hashlib
+import json
 
-# Configurações de rede e diretório
-HOST = '127.0.0.1' # Localhost
-PORT = 5000
-TAMANHO_BLOCO = 4096 # 4 KB de leitura por vez
-DIRETORIO_DESTINO = 'recebidos'
+HOST = '127.0.0.1'
+PORTA_CONTROLE = 8021
+PORTA_DADOS = 8020
 
-# Cria o diretório 'recebidos' se ele não existir
-if not os.path.exists(DIRETORIO_DESTINO):
-    os.makedirs(DIRETORIO_DESTINO)
+# O Servidor agora é a fonte da verdade
+PASTA_SERVIDOR = 'pasta_servidor'
+ARQUIVO_MESTRE = os.path.join(PASTA_SERVIDOR, 'config_master.json')
 
-def receber_exatamente(sock, num_bytes):
-    """
-    Lê uma quantidade exata de bytes do socket.
-    Necessário porque a rede pode fragmentar os pacotes TCP.
-    """
-    dados = bytearray()
-    while len(dados) < num_bytes:
-        pacote = sock.recv(num_bytes - len(dados))
-        if not pacote:
-            return None # Conexão interrompida
-        dados.extend(pacote)
-    return dados
+os.makedirs(PASTA_SERVIDOR, exist_ok=True)
 
-def iniciar_servidor():
-    # 1. Configuração do Socket
-    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) #instrui uso de endereço ipv4//instrui do so a usar o protocolo tcp
-    server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) #
-    server_socket.bind((HOST, PORT))
-    server_socket.listen(1)
+# Se não existir um JSON mestre, cria um genérico para o teste inicial
+if not os.path.exists(ARQUIVO_MESTRE):
+    with open(ARQUIVO_MESTRE, 'w') as f:
+        json.dump({"versao": "1.0", "tema": "dark", "status": "operacional"}, f, indent=4)
+
+def calcular_hash(caminho_arquivo):
+    if not os.path.exists(caminho_arquivo): 
+        return None
+    sha = hashlib.sha256()
+    with open(caminho_arquivo, 'rb') as f:
+        sha.update(f.read())
+    return sha.hexdigest()
+
+# Configuração do Socket de Controle
+socket_controle = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+socket_controle.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+socket_controle.bind((HOST, PORTA_CONTROLE))
+socket_controle.listen(1)
+
+print(f"Servidor MESTRE Ativo. Distribuindo configurações na porta {PORTA_CONTROLE}...")
+
+while True:
+    conn_ctrl, addr = socket_controle.accept()
+    mensagem = conn_ctrl.recv(1024).decode()
     
-    print(f"Servidor aguardando conexões em {HOST}:{PORT}...")
-
-    while True:
-        client_socket, endereco_cliente = server_socket.accept()
-        print(f"Conexão estabelecida com {endereco_cliente}")
-
-        try:
-            # 2. Leitura do prefixo de tamanho (4 bytes)
-            bytes_prefixo = receber_exatamente(client_socket, 4)
-            if not bytes_prefixo:
-                print("Erro: Não foi possível ler o prefixo.")
-                client_socket.close()
-                continue
-            
-            # Converte os 4 bytes em um número inteiro
-            tamanho_cabecalho = struct.unpack('>I', bytes_prefixo)[0]
-
-            # 3. Leitura do cabeçalho JSON
-            bytes_cabecalho = receber_exatamente(client_socket, tamanho_cabecalho)
-            if not bytes_cabecalho:
-                print("Erro: Não foi possível ler o cabeçalho.")
-                client_socket.close()
-                continue
-                
-            cabecalho = json.loads(bytes_cabecalho.decode('utf-8'))
-            nome_arquivo = cabecalho['nome_arquivo']
-            tamanho_total = cabecalho['tamanho_bytes']
-            hash_esperado = cabecalho['hash_sha256']
-            
-            print(f"Metadados recebidos: Arquivo '{nome_arquivo}', Tamanho: {tamanho_total} bytes")
-
-            # 4. Preparação para receber o arquivo
-            caminho_salvamento = os.path.join(DIRETORIO_DESTINO, nome_arquivo)
-            bytes_recebidos = 0
-            
-            # Inicializa o objeto de hash para calcular os dados em tempo real
-            sha256_calculado = hashlib.sha256()
-
-            # 5. Recepção em blocos e escrita no disco
-            with open(caminho_salvamento, 'wb') as arquivo:
-                while bytes_recebidos < tamanho_total:
-                    # Determina o tamanho da próxima leitura (não exceder o tamanho total)
-                    bytes_restantes = tamanho_total - bytes_recebidos
-                    tamanho_leitura = min(TAMANHO_BLOCO, bytes_restantes)
-                    
-                    dados_bloco = client_socket.recv(tamanho_leitura)
-                    if not dados_bloco:
-                        print("Erro: A conexão foi perdida durante o download.")
-                        break
-                        
-                    # Escreve no arquivo e atualiza o hash
-                    arquivo.write(dados_bloco)
-                    sha256_calculado.update(dados_bloco)
-                    bytes_recebidos += len(dados_bloco)
-            
-            # 6. Validação de integridade
-            hash_final = sha256_calculado.hexdigest()
-            print(f"Recebimento concluído. Validando integridade...")
-            
-            if hash_final == hash_esperado:
-                print(f"SUCESSO: Os hashes coincidem ({hash_final}). O arquivo está íntegro.")
-                client_socket.sendall(b"STATUS 200 OK")
-            else:
-                print(f"FALHA: Os hashes são diferentes.\nEsperado: {hash_esperado}\nCalculado: {hash_final}")
-                client_socket.sendall(b"STATUS 500 CORROMPIDO")
-
-        except Exception as e:
-            print(f"Ocorreu um erro no processamento: {e}")
+    # Novo Comando: Cliente pede para checar a configuração
+    if mensagem.startswith("CHECK_CONF"):
+        partes = mensagem.split()
+        hash_cliente = partes[1] if len(partes) > 1 else None
         
-        finally:
-            client_socket.close()
-            print("Conexão encerrada.\n---")
+        # Calcula o hash da configuração atual do servidor
+        hash_servidor = calcular_hash(ARQUIVO_MESTRE)
 
-if __name__ == "__main__":
-    iniciar_servidor()
+        # Se o cliente já tem a mesma versão, avisa que não mudou
+        if hash_servidor == hash_cliente:
+            print(f"[{addr[1]}] Terminal já está atualizado.")
+            conn_ctrl.sendall(b"304 Not Modified")
+        
+        # Se o cliente está desatualizado (ou não tem o arquivo)
+        else:
+            print(f"[{addr[1]}] Terminal desatualizado. Enviando nova config...")
+            
+            socket_dados = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            socket_dados.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+            socket_dados.bind((HOST, PORTA_DADOS))
+            socket_dados.listen(1)
+            
+            conn_ctrl.sendall(b"150 ACCEPTED PORT 8020")
+            
+            conn_dados, _ = socket_dados.accept()
+            
+            # O SERVIDOR AGORA LÊ E ENVIA (Inversão)
+            with open(ARQUIVO_MESTRE, 'rb') as f:
+                conn_dados.sendall(f.read())
+                    
+            conn_dados.close()
+            socket_dados.close() 
+            
+            conn_ctrl.sendall(b"226 Transfer Complete")
+
+    conn_ctrl.close()

@@ -1,82 +1,121 @@
 import socket
-import json
-import struct
 import hashlib
 import os
+import json
+import time
+import sys # Para pegar o nome do terminal
 
-# Configurações de rede e arquivo
 HOST = '127.0.0.1'
-PORT = 5000
-ARQUIVO_ALVO = 'teste.txt'  # Certifique-se de que um arquivo com este nome exista na pasta
-TAMANHO_BLOCO = 4096
+PORTA_CONTROLE = 8021
+PORTA_DADOS = 8020
 
-def iniciar_cliente():
-    # 1. Validação do arquivo no disco
-    if not os.path.exists(ARQUIVO_ALVO):
-        print(f"Erro: O arquivo '{ARQUIVO_ALVO}' não foi encontrado.")
+# ISOLAMENTO DE MÁQUINAS: Pega o nome do terminal rodando
+# Exemplo: python cliente.py Terminal_A
+nome_terminal = sys.argv[1] if len(sys.argv) > 1 else "Terminal_Generico"
+PASTA_LOCAL = f"pasta_{nome_terminal}"
+
+os.makedirs(PASTA_LOCAL, exist_ok=True)
+ARQUIVO_LOCAL = os.path.join(PASTA_LOCAL, 'config_master.json')
+
+def calcular_hash(caminho_arquivo):
+    if not os.path.exists(caminho_arquivo):
+        return None
+    sha = hashlib.sha256()
+    with open(caminho_arquivo, 'rb') as f:
+        sha.update(f.read())
+    return sha.hexdigest()
+
+def aplicar_tema(caminho_arquivo_json):
+    """Lê o JSON local e muda as cores do terminal usando códigos ANSI."""
+    try:
+        with open(caminho_arquivo_json, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+    except Exception as e:
+        print(f"Erro ao ler JSON: {e}")
         return
 
-    tamanho_arquivo = os.path.getsize(ARQUIVO_ALVO)
-    print(f"Processando '{ARQUIVO_ALVO}' ({tamanho_arquivo} bytes)...")
-
-    # 2. Leitura inicial para cálculo do hash SHA-256
-    sha256 = hashlib.sha256()
-    with open(ARQUIVO_ALVO, 'rb') as arquivo:
-        for bloco in iter(lambda: arquivo.read(TAMANHO_BLOCO), b""):
-            sha256.update(bloco)
-    hash_arquivo = sha256.hexdigest()
-
-    # 3. Geração do JSON e do prefixo estruturado (4 bytes)
-    cabecalho = {
-        "operacao": "UPLOAD",
-        "nome_arquivo": ARQUIVO_ALVO,
-        "tamanho_bytes": tamanho_arquivo,
-        "hash_sha256": hash_arquivo
+    # Dicionário de Cores ANSI
+    temas = {
+        "dark": "\033[0;37;40m",    # Texto Branco, Fundo Preto
+        "light": "\033[0;30;47m",   # Texto Preto, Fundo Branco
+        "matrix": "\033[1;32;40m",  # Texto Verde Brilhante, Fundo Preto
+        "hacker": "\033[1;31;40m",  # Texto Vermelho, Fundo Preto
+        "ocean": "\033[1;36;44m",   # Texto Ciano, Fundo Azul
+        "alerta": "\033[1;33;41m"   # Texto Amarelo, Fundo Vermelho (Cuidado!)
     }
-    bytes_cabecalho = json.dumps(cabecalho).encode('utf-8')
-    tamanho_cabecalho = len(bytes_cabecalho)
-    prefixo_tamanho = struct.pack('>I', tamanho_cabecalho)
+    
+    tema_escolhido = config.get("tema", "dark")
+    cor_ansi = temas.get(tema_escolhido, temas["dark"])
+    msg = config.get("mensagem_boas_vindas", "Terminal Pronto.")
 
-    # 4. Instanciação do socket TCP
-    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    # Limpa a tela (cls para Windows, clear para Linux/Mac)
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+    # Aplica a cor (o end="" evita pular linha)
+    print(cor_ansi, end="") 
+    
+    # Desenha a Interface
+    print("\n")
+    if config.get("exibir_cabecalho", True):
+        print("=" * 60)
+        print(f" {msg} ".center(60, "="))
+        print("=" * 60)
+    
+    print(f"\n[INFO] Terminal: {nome_terminal}")
+    print(f"[INFO] Versão da Configuração: {config.get('versao', 'Desconhecida')}")
+    print(f"[INFO] Tema Ativo: {tema_escolhido.upper()}")
+    print("\n> Aguardando novas ordens da central...\n")
+
+# Se o cliente já tiver um arquivo salvo da última vez, aplica o visual logo ao abrir
+if os.path.exists(ARQUIVO_LOCAL):
+    aplicar_tema(ARQUIVO_LOCAL)
+else:
+    print(f"[{nome_terminal}] Iniciado. Buscando primeira configuração...")
+
+while True:
+    hash_atual = calcular_hash(ARQUIVO_LOCAL)
+    
+    # Se o cliente for novo e não tiver o arquivo, mandamos a palavra VAZIO
+    hash_envio = hash_atual if hash_atual else "VAZIO"
     
     try:
-        # APLICAÇÃO DO CONNECT: O script bloqueia aqui até que o SO
-        # complete a sequência de inicialização TCP com o servidor.
-        print(f"Requisitando conexão ao servidor em {HOST}:{PORT}...")
-        client_socket.connect((HOST, PORT))
+        socket_controle = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        socket_controle.connect((HOST, PORTA_CONTROLE))
         
-        # APLICAÇÃO DO SENDALL (Metadados): Transferência dos dados de controle.
-        # Envia primeiro os 4 bytes com o tamanho do JSON.
-        client_socket.sendall(prefixo_tamanho)
-        # Envia a sequência de bytes correspondente ao JSON.
-        client_socket.sendall(bytes_cabecalho)
+        # Pede para o servidor checar o hash atual
+        comando = f"CHECK_CONF {hash_envio}"
+        socket_controle.sendall(comando.encode())
         
-        # APLICAÇÃO DO SENDALL (Dados do Arquivo): Transferência do conteúdo.
-        print("Iniciando transmissão dos dados...")
-        bytes_enviados = 0
-        with open(ARQUIVO_ALVO, 'rb') as arquivo:
-            while True:
-                dados = arquivo.read(TAMANHO_BLOCO)
-                if not dados:
-                    break
-                client_socket.sendall(dados)
-                bytes_enviados += len(dados)
+        resposta = socket_controle.recv(1024).decode()
         
-        print(f"Transmissão concluída ({bytes_enviados} bytes). Aguardando validação...")
-        
-        # 5. Bloqueio de leitura aguardando o código de status do servidor
-        resposta = client_socket.recv(1024)
-        print(f"Retorno do servidor: {resposta.decode('utf-8')}")
+        # O Cliente agora RECEBE os dados (Inversão)
+        if "150" in resposta:
+            socket_dados = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            socket_dados.connect((HOST, PORTA_DADOS))
+            
+            # Abre o arquivo local em modo de escrita binária (wb)
+            with open(ARQUIVO_LOCAL, 'wb') as f:
+                while True:
+                    dados = socket_dados.recv(4096)
+                    if not dados: 
+                        break
+                    f.write(dados)
+                    
+            socket_dados.close() 
+            
+            status_final = socket_controle.recv(1024).decode()
+            print(f"\n[+] Nova configuração baixada com sucesso!")
+            aplicar_tema(ARQUIVO_LOCAL)
+        #elif "304" in resposta:
+            # Comentado para não poluir o terminal, ele apenas dorme
+            # print("Configuração já está na versão mais recente.")
 
     except ConnectionRefusedError:
-        print("Erro: O servidor recusou a conexão. Verifique se servidor.py está em execução.")
+        print("Servidor offline. Tentando novamente...")
     except Exception as e:
-        print(f"Ocorreu um erro durante a operação: {e}")
+        print(f"Erro inesperado: {e}")
     finally:
-        # 6. Liberação dos recursos do sistema operacional
-        client_socket.close()
-        print("Conexão encerrada.")
-
-if __name__ == "__main__":
-    iniciar_cliente()
+        socket_controle.close()
+                
+    # Verifica a cada 5 segundos
+    time.sleep(5)
