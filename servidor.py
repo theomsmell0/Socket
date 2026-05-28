@@ -14,7 +14,7 @@ os.makedirs(PASTA_SERVIDOR, exist_ok=True)
 
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
+    format='%(asctime)s | %(levelname)-8s | %(message)s',
     handlers=[
         logging.FileHandler(os.path.join(PASTA_SERVIDOR, "servidor.log"), encoding='utf-8'),
         logging.StreamHandler()
@@ -35,74 +35,87 @@ def calcular_hash(caminho_arquivo):
 socket_controle = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 socket_controle.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
-# BIND: Associa o processo a uma interface de rede e porta
 socket_controle.bind((HOST, PORTA_CONTROLE))
 socket_controle.listen(1)
-
-# TIMEOUT: O segredo para o servidor não ficar travado no accept()
-# Ele vai esperar 1 segundo por conexões. Se não vier, ele dá uma volta no loop.
 socket_controle.settimeout(1.0) 
 
-logging.info(f"Servidor Iniciado. BIND realizado com sucesso em IP: {HOST} | Porta: {PORTA_CONTROLE}")
-logging.info(f"Monitorando alterações no arquivo: {ARQUIVO_MESTRE}")
+# --- LOGS PROFISSIONAIS DE INICIALIZAÇÃO ---
+logging.info("[SYSTEM]  Daemon de Provisionamento Inicializado.")
+logging.info(f"[NETWORK] Control Socket BIND estabelecido -> tcp://{HOST}:{PORTA_CONTROLE}")
+logging.info(f"[FILE_IO] Monitorando artefato principal: {ARQUIVO_MESTRE}")
 
-# Memória do servidor para saber quando VOCÊ alterou o arquivo no disco
 ultimo_hash_servidor = calcular_hash(ARQUIVO_MESTRE)
+logging.info(f"[SYNC]    Hash de referência carregado: {ultimo_hash_servidor[:8]}...")
 
 while True:
-    # 1. VERIFICAÇÃO ATIVA DO ARQUIVO LOCAL
     hash_atual_servidor = calcular_hash(ARQUIVO_MESTRE)
     if hash_atual_servidor != ultimo_hash_servidor:
-        logging.info("=====================================================")
-        logging.warning("[ALERTA] Arquivo config_master.json foi MODIFICADO no disco!")
-        logging.info("Nova versão pronta para distribuição aos terminais.")
-        logging.info("=====================================================")
+        logging.warning("[FILE_IO] Mutação detectada no arquivo de configuração em disco.")
+        logging.info(f"[SYNC]    Novo Hash de referência: {hash_atual_servidor[:8]}... Versão pronta para deploy.")
         ultimo_hash_servidor = hash_atual_servidor
 
-    # 2. AGUARDA CONEXÕES
     try:
         conn_ctrl, addr = socket_controle.accept()
     except socket.timeout:
-        continue # Passou 1 segundo e ninguém conectou. Volta pro começo do loop silenciosamente.
+        continue 
 
-    # 3. CLIENTE CONECTOU! Pega as informações de rede dele.
     ip_cliente, porta_cliente = addr
-    logging.info(f"Nova conexão de controle -> IP Origem: {ip_cliente} | Porta Origem: {porta_cliente}")
+    id_sessao = f"{ip_cliente}:{porta_cliente}"
+    logging.info(f"[SESSION] Nova conexão entrante estabelecida. Origem: {id_sessao}")
     
     try:
         mensagem = conn_ctrl.recv(1024).decode()
+        logging.info(f"[PROTOCOL] RX ({id_sessao}) <- {mensagem[:30]}")
         
         if mensagem.startswith("CHECK_CONF"):
             partes = mensagem.split()
             hash_cliente = partes[1] if len(partes) > 1 else None
             
             if ultimo_hash_servidor == hash_cliente:
-                logging.info(f"[Cliente {porta_cliente}] Terminal já possui o hash {hash_cliente[:6]}... (Atualizado)")
+                logging.info(f"[SYNC]    Coerência de cache validada para {id_sessao}. Operação abortada.")
                 conn_ctrl.sendall(b"304 Not Modified")
+                logging.info(f"[PROTOCOL] TX ({id_sessao}) -> 304 Not Modified")
             else:
-                logging.info(f"[Cliente {porta_cliente}] Terminal desatualizado. Negociando porta de dados...")
+                logging.info(f"[SYNC]    Obsolescência detectada para {id_sessao}. Iniciando provisionamento.")
                 
                 socket_dados = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
                 socket_dados.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
                 socket_dados.bind((HOST, PORTA_DADOS))
                 socket_dados.listen(1)
                 
-                logging.info(f"[Cliente {porta_cliente}] BIND Temporário realizado na porta de DADOS {PORTA_DADOS}")
+                logging.info(f"[NETWORK] Data Socket BIND temporário -> tcp://{HOST}:{PORTA_DADOS}")
                 conn_ctrl.sendall(f"150 ACCEPTED PORT {PORTA_DADOS}".encode())
+                logging.info(f"[PROTOCOL] TX ({id_sessao}) -> 150 ACCEPTED PORT {PORTA_DADOS}")
                 
                 conn_dados, addr_dados = socket_dados.accept()
-                logging.info(f"Conexão de DADOS estabelecida com -> Porta Origem: {addr_dados[1]}. Enviando arquivo...")
+                logging.info(f"[SESSION] Canal de DADOS aberto com sucesso. Origem: {addr_dados[0]}:{addr_dados[1]}")
                 
+                bytes_enviados = 0
                 with open(ARQUIVO_MESTRE, 'rb') as f:
-                    conn_dados.sendall(f.read())
+                    dados = f.read()
+                    conn_dados.sendall(dados)
+                    bytes_enviados = len(dados)
                         
                 conn_dados.close()
                 socket_dados.close() 
                 
+                logging.info(f"[FILE_IO] Transferência concluída. {bytes_enviados} bytes transmitidos.")
                 conn_ctrl.sendall(b"226 Transfer Complete")
-                logging.info(f"[Cliente {porta_cliente}] Arquivo transferido. Conexões encerradas.")
+                logging.info(f"[PROTOCOL] TX ({id_sessao}) -> 226 Transfer Complete")
 
+        elif mensagem.startswith("KEEP_LOCAL"):
+            logging.info(f"[SYNC]    Diretiva de Autonomia de Nó recebida de {id_sessao}.")
+            conn_ctrl.sendall(b"200 OK - Modo Local Mantido")
+            logging.info(f"[PROTOCOL] TX ({id_sessao}) -> 200 OK")
+            
+        else:
+            msg_segura = mensagem[:50] 
+            logging.warning(f"[SECURITY] Vetor de dados malformado/anômalo recebido de {id_sessao}: '{msg_segura}'")
+            conn_ctrl.sendall(b"400 Bad Request")
+            logging.info(f"[PROTOCOL] TX ({id_sessao}) -> 400 Bad Request")
+            
     except Exception as e:
-        logging.error(f"Erro na comunicação com {ip_cliente}:{porta_cliente} - {e}")
+        logging.error(f"[SYSTEM]  Exceção não tratada na sessão {id_sessao}: {e}")
     finally:
         conn_ctrl.close()
+        logging.info(f"[SESSION] Conexão de controle encerrada para {id_sessao}.\n")

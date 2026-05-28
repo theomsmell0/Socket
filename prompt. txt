@@ -1,0 +1,106 @@
+gemini eu vou fazer uma pequenas explanaçẽos do code e passar as partes do code que estou explicando. Quero que complemente a explciação e formate o code.
+
+
+
+As seguintes bibliotecas foram usadas para implementação do projeto import socket
+
+import os
+
+import hashlib
+
+import json
+
+import logging
+
+
+
+sendo os para acesso dos diretorios do sistema, json para armazenamento das configuraçẽos, loggin para registro de acontecimentos na rede e o hashlib para criptografia dos dados . Alem disso socket para implementar a conexão
+
+
+
+HOST = '127.0.0.1'
+
+PORTA_CONTROLE = 8021
+
+PORTA_DADOS = 8020
+
+
+
+O servidor foi feito em local host utilizando a porta 8021 para comunicaçaõ de caebçalho, avisos e essas paradas e a 8020 para envio dos dados e arquivos de configuração
+
+
+
+
+
+socket_controle = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+socket_controle.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+
+ 
+
+O socket é então criado utilizando arquittura TCP, além disso o reuseaddr para liberar os recursos de rede caso o terminal (servidor) seja fechado ou finalizado
+
+
+
+socket_controle.bind((HOST, PORTA_CONTROLE))
+
+socket_controle.listen(1)
+
+
+
+O bind é feito para assegurar os recursos na pasta de rede, com o ip do rost e a porta de controlo, o servidor começa a ouvir a rede esperando as conexões 
+
+
+
+socket_controle.settimeout(1.0) 
+
+
+
+Além disso usamos o settimeout para evitar que o servidor fique travado em ao fazer o accept com os clientes. Acho que tem que explicar que o servidor só conecta com um de cada vez e tals.
+
+
+
+Antes de entrar no Loop principal o servidor calcula o hash atual do arquivo de configuraçaõ salvo.
+
+
+
+if hash_atual_servidor != ultimo_hash_servidor:
+
+        logging.info("=====================================================")
+
+        logging.warning("[ALERTA] Arquivo config_master.json foi MODIFICADO no disco!")
+
+        logging.info("Nova versão pronta para distribuição aos terminais.")
+
+        logging.info("=====================================================")
+
+        ultimo_hash_servidor = hash_atual_servidor
+
+
+
+Foca na parte dos hashs e socket e não do log, e foca no condicional.  Aqui ocorre a verifcaçaõ para verse o hash atual do servidor não foi alterado nesse meio tempo.
+
+
+
+Assim que o servidor é contado ele fica esperando e ser der time out ele roda o laço dnv procurando outras comunicações.
+
+
+
+ try:
+
+        conn_ctrl, addr = socket_controle.accept()
+
+    except socket.timeout:
+
+        continue # Passou 1 segundo e ninguém conectou. Volta pro começo do loop silenciosamente.
+
+
+
+Ao receber a mesagem do client, o servidor verifica como essa msg se inicia para saber prosseguir, se 
+
+
+
+
+
+
+
