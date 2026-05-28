@@ -3848,3 +3848,768 @@
 2026-05-27 18:01:29,993 - INFO - Nenhuma atualização pendente (Status 304).
 2026-05-27 18:01:34,993 - INFO - Conectado ao Servidor Controle (127.0.0.1:8021) usando a porta local 54034
 2026-05-27 18:01:34,993 - INFO - Nenhuma atualização pendente (Status 304).
+2026-05-27 22:22:07,252 | INFO     | === INICIALIZAÇÃO DO NÓ: PC_lab ===
+2026-05-27 22:22:07,253 | INFO     | [FILE_IO] Artefato local localizado em pasta_PC_lab/config_master.json
+2026-05-27 22:22:07,255 | INFO     | [SYSTEM]  Interface recarregada. Parâmetros aplicados -> Tema: MATRIX | Versão: 1.2
+2026-05-27 22:22:07,255 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 36196) -> tcp://127.0.0.1:8021
+2026-05-27 22:22:07,255 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 390bdf88...
+2026-05-27 22:22:07,255 | INFO     | [PROTOCOL] TX -> CHECK_CONF 390bdf8880c1728ded99312f206e6384d313235c48f846d570f30041fdc6ef7b
+2026-05-27 22:22:07,256 | INFO     | [PROTOCOL] RX <- 150 ACCEPTED PORT 8020
+2026-05-27 22:22:07,256 | INFO     | [NETWORK] Estabelecendo via de recepção secundária (Porta 8020)...
+2026-05-27 22:22:07,256 | INFO     | [FILE_IO] Download concluído. Payload recebido: 139 bytes.
+2026-05-27 22:22:07,259 | INFO     | [SYSTEM]  Interface recarregada. Parâmetros aplicados -> Tema: HACKER | Versão: 2.0
+2026-05-27 22:22:07,259 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:22:12,259 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 36212) -> tcp://127.0.0.1:8021
+2026-05-27 22:22:12,259 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:22:12,260 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:22:12,260 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:22:12,260 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:22:12,260 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:22:17,260 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 42272) -> tcp://127.0.0.1:8021
+2026-05-27 22:22:17,260 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:22:17,261 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:22:17,261 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:22:17,261 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:22:17,261 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:22:22,261 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 42292) -> tcp://127.0.0.1:8021
+2026-05-27 22:22:22,261 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:22:22,261 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:22:22,262 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:22:22,262 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:22:22,262 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:22:27,262 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 59288) -> tcp://127.0.0.1:8021
+2026-05-27 22:22:27,262 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:22:27,262 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:22:27,263 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:22:27,263 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:22:27,263 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:22:32,263 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 59294) -> tcp://127.0.0.1:8021
+2026-05-27 22:22:32,263 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:22:32,263 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:22:32,263 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:22:32,263 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:22:32,264 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:22:37,264 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 42828) -> tcp://127.0.0.1:8021
+2026-05-27 22:22:37,264 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:22:37,264 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:22:37,264 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:22:37,264 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:22:37,264 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:22:42,265 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 42840) -> tcp://127.0.0.1:8021
+2026-05-27 22:22:42,265 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:22:42,265 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:22:42,265 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:22:42,265 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:22:42,265 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:22:47,266 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 34282) -> tcp://127.0.0.1:8021
+2026-05-27 22:22:47,266 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:22:47,266 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:22:47,266 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:22:47,266 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:22:47,266 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:22:52,267 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 34306) -> tcp://127.0.0.1:8021
+2026-05-27 22:22:52,267 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:22:52,267 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:22:52,267 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:22:52,267 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:22:52,267 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:22:57,268 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 41908) -> tcp://127.0.0.1:8021
+2026-05-27 22:22:57,268 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:22:57,268 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:22:57,268 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:22:57,268 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:22:57,268 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:23:02,269 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 41920) -> tcp://127.0.0.1:8021
+2026-05-27 22:23:02,269 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:23:02,269 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:23:02,269 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:23:02,269 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:23:02,269 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:23:07,270 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 58442) -> tcp://127.0.0.1:8021
+2026-05-27 22:23:07,270 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:23:07,270 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:23:07,270 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:23:07,270 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:23:07,270 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:23:12,271 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 58456) -> tcp://127.0.0.1:8021
+2026-05-27 22:23:12,271 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:23:12,271 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:23:12,272 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:23:12,272 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:23:12,272 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:23:17,273 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 44424) -> tcp://127.0.0.1:8021
+2026-05-27 22:23:17,273 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:23:17,273 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:23:17,273 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:23:17,274 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:23:17,274 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:23:22,274 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 44446) -> tcp://127.0.0.1:8021
+2026-05-27 22:23:22,275 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:23:22,275 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:23:22,275 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:23:22,275 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:23:22,275 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:23:27,275 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 50058) -> tcp://127.0.0.1:8021
+2026-05-27 22:23:27,276 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:23:27,276 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:23:27,276 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:23:27,276 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:23:27,276 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:23:32,276 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 50070) -> tcp://127.0.0.1:8021
+2026-05-27 22:23:32,276 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:23:32,276 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:23:32,277 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:23:32,277 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:23:32,277 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:23:37,277 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 44832) -> tcp://127.0.0.1:8021
+2026-05-27 22:23:37,277 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:23:37,277 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:23:37,277 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:23:37,277 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:23:37,278 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:23:42,278 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 44848) -> tcp://127.0.0.1:8021
+2026-05-27 22:23:42,278 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:23:42,278 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:23:42,279 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:23:42,279 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:23:42,279 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:23:47,280 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 54406) -> tcp://127.0.0.1:8021
+2026-05-27 22:23:47,280 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:23:47,280 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:23:47,280 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:23:47,280 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:23:47,281 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:23:52,281 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 54430) -> tcp://127.0.0.1:8021
+2026-05-27 22:23:52,281 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:23:52,282 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:23:52,282 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:23:52,282 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:23:52,282 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:23:57,283 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 41984) -> tcp://127.0.0.1:8021
+2026-05-27 22:23:57,283 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:23:57,283 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:23:57,284 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:23:57,284 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:23:57,284 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:24:02,285 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 41998) -> tcp://127.0.0.1:8021
+2026-05-27 22:24:02,285 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:24:02,285 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:24:02,285 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:24:02,285 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:24:02,285 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:24:07,286 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 53770) -> tcp://127.0.0.1:8021
+2026-05-27 22:24:07,286 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:24:07,286 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:24:07,287 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:24:07,287 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:24:07,287 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:24:12,287 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 53784) -> tcp://127.0.0.1:8021
+2026-05-27 22:24:12,288 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:24:12,288 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:24:12,288 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:24:12,288 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:24:12,288 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:24:17,289 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 46582) -> tcp://127.0.0.1:8021
+2026-05-27 22:24:17,289 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:24:17,289 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:24:17,289 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:24:17,289 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:24:17,290 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:24:22,290 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 46598) -> tcp://127.0.0.1:8021
+2026-05-27 22:24:22,290 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:24:22,290 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:24:22,290 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:24:22,290 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:24:22,291 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:24:27,291 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 45744) -> tcp://127.0.0.1:8021
+2026-05-27 22:24:27,291 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:24:27,291 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:24:27,291 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:24:27,291 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:24:27,291 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:24:32,292 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 45772) -> tcp://127.0.0.1:8021
+2026-05-27 22:24:32,292 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:24:32,292 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:24:32,292 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:24:32,292 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:24:32,292 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:24:37,293 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 48524) -> tcp://127.0.0.1:8021
+2026-05-27 22:24:37,293 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:24:37,293 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:24:37,293 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:24:37,293 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:24:37,293 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:24:42,294 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 48544) -> tcp://127.0.0.1:8021
+2026-05-27 22:24:42,294 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:24:42,294 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:24:42,294 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:24:42,294 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:24:42,295 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:24:47,295 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 54944) -> tcp://127.0.0.1:8021
+2026-05-27 22:24:47,295 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:24:47,295 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:24:47,295 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:24:47,295 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:24:47,295 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:24:52,296 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 54950) -> tcp://127.0.0.1:8021
+2026-05-27 22:24:52,296 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:24:52,296 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:24:52,296 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:24:52,296 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:24:52,297 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:24:57,297 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 37576) -> tcp://127.0.0.1:8021
+2026-05-27 22:24:57,297 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:24:57,298 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:24:57,298 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:24:57,298 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:24:57,298 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:25:02,299 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 37600) -> tcp://127.0.0.1:8021
+2026-05-27 22:25:02,299 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:25:02,299 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:25:02,300 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:25:02,300 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:25:02,300 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:25:07,301 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 56470) -> tcp://127.0.0.1:8021
+2026-05-27 22:25:07,301 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:25:07,301 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:25:07,301 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:25:07,301 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:25:07,301 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:25:12,302 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 56484) -> tcp://127.0.0.1:8021
+2026-05-27 22:25:12,302 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:25:12,303 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:25:12,303 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:25:12,303 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:25:12,303 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:25:17,304 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 37920) -> tcp://127.0.0.1:8021
+2026-05-27 22:25:17,304 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:25:17,304 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:25:17,305 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:25:17,305 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:25:17,305 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:25:22,305 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 37950) -> tcp://127.0.0.1:8021
+2026-05-27 22:25:22,305 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:25:22,306 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:25:22,306 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:25:22,306 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:25:22,306 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:25:27,306 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 55992) -> tcp://127.0.0.1:8021
+2026-05-27 22:25:27,307 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:25:27,307 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:25:27,307 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:25:27,307 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:25:27,307 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:25:32,308 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 56010) -> tcp://127.0.0.1:8021
+2026-05-27 22:25:32,308 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:25:32,308 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:25:32,308 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:25:32,308 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:25:32,309 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:25:37,309 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 46832) -> tcp://127.0.0.1:8021
+2026-05-27 22:25:37,309 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:25:37,309 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:25:37,310 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:25:37,310 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:25:37,310 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:25:42,310 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 46840) -> tcp://127.0.0.1:8021
+2026-05-27 22:25:42,311 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:25:42,311 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:25:42,311 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:25:42,311 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:25:42,311 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:25:47,312 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 38806) -> tcp://127.0.0.1:8021
+2026-05-27 22:25:47,312 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:25:47,312 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:25:47,312 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:25:47,312 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:25:47,312 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:25:52,313 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 38824) -> tcp://127.0.0.1:8021
+2026-05-27 22:25:52,313 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:25:52,313 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:25:52,313 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:25:52,313 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:25:52,313 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:25:57,314 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 33550) -> tcp://127.0.0.1:8021
+2026-05-27 22:25:57,314 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:25:57,314 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:25:57,314 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:25:57,314 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:25:57,314 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:26:02,315 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 33566) -> tcp://127.0.0.1:8021
+2026-05-27 22:26:02,315 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:26:02,315 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:26:02,315 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:26:02,315 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:26:02,315 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:26:07,316 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 37218) -> tcp://127.0.0.1:8021
+2026-05-27 22:26:07,316 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:26:07,316 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:26:07,316 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:26:07,316 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:26:07,317 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:26:12,317 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 37238) -> tcp://127.0.0.1:8021
+2026-05-27 22:26:12,317 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:26:12,318 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:26:12,318 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:26:12,318 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:26:12,318 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:26:17,319 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 55156) -> tcp://127.0.0.1:8021
+2026-05-27 22:26:17,319 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:26:17,319 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:26:17,319 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:26:17,319 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:26:17,320 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:26:22,320 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 55184) -> tcp://127.0.0.1:8021
+2026-05-27 22:26:22,320 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:26:22,320 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:26:22,321 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:26:22,321 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:26:22,321 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:26:27,321 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 34988) -> tcp://127.0.0.1:8021
+2026-05-27 22:26:27,322 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:26:27,322 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:26:27,322 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:26:27,322 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:26:27,322 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:26:32,322 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 35004) -> tcp://127.0.0.1:8021
+2026-05-27 22:26:32,323 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:26:32,323 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:26:32,323 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:26:32,323 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:26:32,323 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:26:37,323 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 52224) -> tcp://127.0.0.1:8021
+2026-05-27 22:26:37,323 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:26:37,323 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:26:37,323 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:26:37,323 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:26:37,324 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:26:42,324 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 52254) -> tcp://127.0.0.1:8021
+2026-05-27 22:26:42,324 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:26:42,324 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:26:42,324 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:26:42,324 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:26:42,324 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:26:47,325 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 43256) -> tcp://127.0.0.1:8021
+2026-05-27 22:26:47,325 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:26:47,325 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:26:47,325 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:26:47,325 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:26:47,325 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:26:52,326 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 43262) -> tcp://127.0.0.1:8021
+2026-05-27 22:26:52,326 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:26:52,326 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:26:52,326 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:26:52,326 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:26:52,326 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:26:57,327 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 59564) -> tcp://127.0.0.1:8021
+2026-05-27 22:26:57,327 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:26:57,327 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:26:57,327 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:26:57,328 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:26:57,328 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:27:02,328 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 59590) -> tcp://127.0.0.1:8021
+2026-05-27 22:27:02,329 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:27:02,329 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:27:02,329 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:27:02,329 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:27:02,329 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:27:07,330 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 48130) -> tcp://127.0.0.1:8021
+2026-05-27 22:27:07,330 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:27:07,330 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:27:07,331 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:27:07,331 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:27:07,331 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:27:12,332 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 48136) -> tcp://127.0.0.1:8021
+2026-05-27 22:27:12,332 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:27:12,332 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:27:12,332 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:27:12,332 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:27:12,333 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:27:17,333 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 58526) -> tcp://127.0.0.1:8021
+2026-05-27 22:27:17,333 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:27:17,334 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:27:17,334 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:27:17,334 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:27:17,334 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:27:22,335 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 58542) -> tcp://127.0.0.1:8021
+2026-05-27 22:27:22,335 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:27:22,335 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:27:22,335 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:27:22,335 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:27:22,336 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:27:27,336 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 55782) -> tcp://127.0.0.1:8021
+2026-05-27 22:27:27,336 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:27:27,337 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:27:27,337 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:27:27,337 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:27:27,337 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:27:32,338 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 55798) -> tcp://127.0.0.1:8021
+2026-05-27 22:27:32,338 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: f69e81c0...
+2026-05-27 22:27:32,338 | INFO     | [PROTOCOL] TX -> CHECK_CONF f69e81c03252c51dca25e0fea2bd4b3cddead8d0beedc17d678aaf417176c4fd
+2026-05-27 22:27:32,339 | INFO     | [PROTOCOL] RX <- 150 ACCEPTED PORT 8020
+2026-05-27 22:27:32,339 | INFO     | [NETWORK] Estabelecendo via de recepção secundária (Porta 8020)...
+2026-05-27 22:27:32,340 | INFO     | [FILE_IO] Download concluído. Payload recebido: 139 bytes.
+2026-05-27 22:27:32,343 | INFO     | [SYSTEM]  Interface recarregada. Parâmetros aplicados -> Tema: HACKER | Versão: 2.0
+2026-05-27 22:27:32,343 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:27:37,344 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 36180) -> tcp://127.0.0.1:8021
+2026-05-27 22:27:37,344 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:27:37,344 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:27:37,345 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:27:37,345 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:27:37,345 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:27:42,345 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 36204) -> tcp://127.0.0.1:8021
+2026-05-27 22:27:42,346 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:27:42,346 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:27:42,346 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:27:42,346 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:27:42,346 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:27:47,347 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 45774) -> tcp://127.0.0.1:8021
+2026-05-27 22:27:47,347 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:27:47,347 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:27:47,348 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:27:47,348 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:27:47,348 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:27:52,349 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 45790) -> tcp://127.0.0.1:8021
+2026-05-27 22:27:52,349 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:27:52,349 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:27:52,349 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:27:52,349 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:27:52,349 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:27:57,350 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 60312) -> tcp://127.0.0.1:8021
+2026-05-27 22:27:57,350 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:27:57,350 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:27:57,351 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:27:57,351 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:27:57,351 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:28:02,352 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 60316) -> tcp://127.0.0.1:8021
+2026-05-27 22:28:02,352 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:28:02,352 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:28:02,352 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:28:02,352 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:28:02,352 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:28:07,353 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 33996) -> tcp://127.0.0.1:8021
+2026-05-27 22:28:07,353 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:28:07,353 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:28:07,354 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:28:07,354 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:28:07,354 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:28:12,355 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 34022) -> tcp://127.0.0.1:8021
+2026-05-27 22:28:12,355 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:28:12,355 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:28:12,355 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:28:12,355 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:28:12,355 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:28:17,356 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 40022) -> tcp://127.0.0.1:8021
+2026-05-27 22:28:17,356 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:28:17,356 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:28:17,357 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:28:17,357 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:28:17,357 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:28:22,358 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 40050) -> tcp://127.0.0.1:8021
+2026-05-27 22:28:22,358 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:28:22,358 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:28:22,358 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:28:22,358 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:28:22,359 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:28:27,359 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 46694) -> tcp://127.0.0.1:8021
+2026-05-27 22:28:27,359 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:28:27,360 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:28:27,360 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:28:27,360 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:28:27,360 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:28:32,361 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 46710) -> tcp://127.0.0.1:8021
+2026-05-27 22:28:32,361 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:28:32,361 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:28:32,364 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:28:32,364 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:28:32,364 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:28:37,365 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 36958) -> tcp://127.0.0.1:8021
+2026-05-27 22:28:37,365 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:28:37,365 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:28:37,365 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:28:37,365 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:28:37,365 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:28:42,366 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 36982) -> tcp://127.0.0.1:8021
+2026-05-27 22:28:42,366 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:28:42,366 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:28:42,366 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:28:42,367 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:28:42,367 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:28:47,367 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 35410) -> tcp://127.0.0.1:8021
+2026-05-27 22:28:47,367 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:28:47,367 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:28:47,368 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:28:47,368 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:28:47,368 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:28:52,369 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 35422) -> tcp://127.0.0.1:8021
+2026-05-27 22:28:52,369 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: 88d24bf7...
+2026-05-27 22:28:52,369 | INFO     | [PROTOCOL] TX -> CHECK_CONF 88d24bf7b4387691b675b0472aebe154809bc9a1ee06948e3f9d9d55010084c6
+2026-05-27 22:28:52,369 | INFO     | [PROTOCOL] RX <- 150 ACCEPTED PORT 8020
+2026-05-27 22:28:52,370 | INFO     | [NETWORK] Estabelecendo via de recepção secundária (Porta 8020)...
+2026-05-27 22:28:52,370 | INFO     | [FILE_IO] Download concluído. Payload recebido: 139 bytes.
+2026-05-27 22:28:52,374 | INFO     | [SYSTEM]  Interface recarregada. Parâmetros aplicados -> Tema: MATRIX | Versão: 2.0
+2026-05-27 22:28:52,374 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:28:57,375 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 41366) -> tcp://127.0.0.1:8021
+2026-05-27 22:28:57,375 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:28:57,375 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:28:57,375 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:28:57,375 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:28:57,375 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:29:02,376 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 41398) -> tcp://127.0.0.1:8021
+2026-05-27 22:29:02,376 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:29:02,377 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:29:02,377 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:29:02,377 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:29:02,377 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:29:07,378 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 47460) -> tcp://127.0.0.1:8021
+2026-05-27 22:29:07,378 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:29:07,378 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:29:07,378 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:29:07,378 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:29:07,379 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:29:12,379 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 47476) -> tcp://127.0.0.1:8021
+2026-05-27 22:29:12,380 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:29:12,380 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:29:12,380 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:29:12,380 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:29:12,380 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:29:17,381 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 48138) -> tcp://127.0.0.1:8021
+2026-05-27 22:29:17,381 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:29:17,381 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:29:17,382 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:29:17,382 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:29:17,382 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:29:22,382 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 48162) -> tcp://127.0.0.1:8021
+2026-05-27 22:29:22,383 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:29:22,383 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:29:22,383 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:29:22,383 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:29:22,383 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:29:27,384 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 36144) -> tcp://127.0.0.1:8021
+2026-05-27 22:29:27,384 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:29:27,384 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:29:27,385 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:29:27,385 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:29:27,385 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:29:32,386 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 36164) -> tcp://127.0.0.1:8021
+2026-05-27 22:29:32,386 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:29:32,386 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:29:32,386 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:29:32,386 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:29:32,386 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:29:37,387 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 57412) -> tcp://127.0.0.1:8021
+2026-05-27 22:29:37,387 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:29:37,387 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:29:37,388 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:29:37,388 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:29:37,388 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:29:42,389 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 57436) -> tcp://127.0.0.1:8021
+2026-05-27 22:29:42,389 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:29:42,389 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:29:42,389 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:29:42,389 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:29:42,390 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:29:47,390 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 36640) -> tcp://127.0.0.1:8021
+2026-05-27 22:29:47,391 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:29:47,391 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:29:47,391 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:29:47,391 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:29:47,391 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:29:52,392 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 36658) -> tcp://127.0.0.1:8021
+2026-05-27 22:29:52,392 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:29:52,392 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:29:52,393 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:29:52,393 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:29:52,393 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:29:57,394 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 46952) -> tcp://127.0.0.1:8021
+2026-05-27 22:29:57,394 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:29:57,394 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:29:57,394 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:29:57,394 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:29:57,394 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:30:02,395 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 46974) -> tcp://127.0.0.1:8021
+2026-05-27 22:30:02,395 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:30:02,396 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:30:02,396 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:30:02,396 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:30:02,396 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:30:07,397 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 39454) -> tcp://127.0.0.1:8021
+2026-05-27 22:30:07,397 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:30:07,397 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:30:07,398 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:30:07,398 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:30:07,398 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:30:12,399 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 39474) -> tcp://127.0.0.1:8021
+2026-05-27 22:30:12,399 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:30:12,399 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:30:12,399 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:30:12,399 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:30:12,399 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:30:17,400 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 44294) -> tcp://127.0.0.1:8021
+2026-05-27 22:30:17,400 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:30:17,400 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:30:17,400 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:30:17,401 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:30:17,401 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:30:22,401 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 44312) -> tcp://127.0.0.1:8021
+2026-05-27 22:30:22,401 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:30:22,401 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:30:22,401 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:30:22,401 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:30:22,401 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:30:27,402 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 38658) -> tcp://127.0.0.1:8021
+2026-05-27 22:30:27,402 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:30:27,402 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:30:27,403 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:30:27,403 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:30:27,403 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:30:32,404 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 38662) -> tcp://127.0.0.1:8021
+2026-05-27 22:30:32,404 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:30:32,404 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:30:32,404 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:30:32,404 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:30:32,405 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:30:37,405 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 58552) -> tcp://127.0.0.1:8021
+2026-05-27 22:30:37,405 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:30:37,406 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:30:37,406 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:30:37,406 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:30:37,406 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:30:42,407 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 58572) -> tcp://127.0.0.1:8021
+2026-05-27 22:30:42,407 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:30:42,407 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:30:42,407 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:30:42,407 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:30:42,407 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:30:47,408 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 41430) -> tcp://127.0.0.1:8021
+2026-05-27 22:30:47,408 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:30:47,408 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:30:47,408 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:30:47,408 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:30:47,409 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:30:52,409 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 41450) -> tcp://127.0.0.1:8021
+2026-05-27 22:30:52,409 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:30:52,409 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:30:52,409 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:30:52,409 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:30:52,410 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:30:57,410 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 42070) -> tcp://127.0.0.1:8021
+2026-05-27 22:30:57,410 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:30:57,410 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:30:57,411 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:30:57,411 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:30:57,411 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+
+2026-05-27 22:31:02,411 | INFO     | [NETWORK] Sessão de controle estabelecida (Local Port: 42096) -> tcp://127.0.0.1:8021
+2026-05-27 22:31:02,411 | INFO     | [SYNC]    Iniciando sondagem de integridade. Referência: bc500179...
+2026-05-27 22:31:02,412 | INFO     | [PROTOCOL] TX -> CHECK_CONF bc5001798486cc657e753fa96a26b1edf9c86e7cdc5e6e21d92677c24ece1abe
+2026-05-27 22:31:02,412 | INFO     | [PROTOCOL] RX <- 304 Not Modified
+2026-05-27 22:31:02,412 | INFO     | [SYNC]    Terminal sincronizado com o servidor mestre. Nenhuma ação requerida.
+2026-05-27 22:31:02,412 | INFO     | [SESSION] Recursos de socket liberados. Entrando em repouso dinâmico.
+

@@ -8169,3 +8169,1415 @@
 2026-05-27 18:01:34,993 - INFO - [Cliente 54034] Terminal já possui o hash a... (Atualizado)
 2026-05-27 18:01:36,094 - INFO - Nova conexão de controle -> IP Origem: 127.0.0.1 | Porta Origem: 54050
 2026-05-27 18:01:36,094 - INFO - [Cliente 54050] Terminal já possui o hash a... (Atualizado)
+2026-05-27 22:20:10,868 | INFO     | [SYSTEM]  Daemon de Provisionamento Inicializado.
+2026-05-27 22:20:10,869 | INFO     | [NETWORK] Control Socket BIND estabelecido -> tcp://127.0.0.1:8021
+2026-05-27 22:20:10,869 | INFO     | [FILE_IO] Monitorando artefato principal: pasta_servidor/config_master.json
+2026-05-27 22:20:10,869 | INFO     | [SYNC]    Hash de referência carregado: 88d24bf7...
+2026-05-27 22:20:50,565 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:44160
+2026-05-27 22:20:50,566 | INFO     | [PROTOCOL] RX (127.0.0.1:44160) <- CHECK_CONF 390bdf8880c1728ded9
+2026-05-27 22:20:50,566 | INFO     | [SYNC]    Obsolescência detectada para 127.0.0.1:44160. Iniciando provisionamento.
+2026-05-27 22:20:50,566 | INFO     | [NETWORK] Data Socket BIND temporário -> tcp://127.0.0.1:8020
+2026-05-27 22:20:50,566 | INFO     | [PROTOCOL] TX (127.0.0.1:44160) -> 150 ACCEPTED PORT 8020
+2026-05-27 22:20:50,566 | INFO     | [SESSION] Canal de DADOS aberto com sucesso. Origem: 127.0.0.1:54602
+2026-05-27 22:20:50,566 | INFO     | [FILE_IO] Transferência concluída. 139 bytes transmitidos.
+2026-05-27 22:20:50,566 | INFO     | [PROTOCOL] TX (127.0.0.1:44160) -> 226 Transfer Complete
+2026-05-27 22:20:50,566 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:44160.
+
+2026-05-27 22:20:55,569 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:49338
+2026-05-27 22:20:55,569 | INFO     | [PROTOCOL] RX (127.0.0.1:49338) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:20:55,569 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:49338. Operação abortada.
+2026-05-27 22:20:55,570 | INFO     | [PROTOCOL] TX (127.0.0.1:49338) -> 304 Not Modified
+2026-05-27 22:20:55,570 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:49338.
+
+2026-05-27 22:21:00,570 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:49350
+2026-05-27 22:21:00,570 | INFO     | [PROTOCOL] RX (127.0.0.1:49350) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:21:00,570 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:49350. Operação abortada.
+2026-05-27 22:21:00,570 | INFO     | [PROTOCOL] TX (127.0.0.1:49350) -> 304 Not Modified
+2026-05-27 22:21:00,570 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:49350.
+
+2026-05-27 22:21:05,571 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48974
+2026-05-27 22:21:05,571 | INFO     | [PROTOCOL] RX (127.0.0.1:48974) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:21:05,571 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48974. Operação abortada.
+2026-05-27 22:21:05,571 | INFO     | [PROTOCOL] TX (127.0.0.1:48974) -> 304 Not Modified
+2026-05-27 22:21:05,571 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48974.
+
+2026-05-27 22:21:10,572 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48990
+2026-05-27 22:21:10,572 | INFO     | [PROTOCOL] RX (127.0.0.1:48990) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:21:10,572 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48990. Operação abortada.
+2026-05-27 22:21:10,572 | INFO     | [PROTOCOL] TX (127.0.0.1:48990) -> 304 Not Modified
+2026-05-27 22:21:10,572 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48990.
+
+2026-05-27 22:21:15,573 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:59840
+2026-05-27 22:21:15,573 | INFO     | [PROTOCOL] RX (127.0.0.1:59840) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:21:15,573 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:59840. Operação abortada.
+2026-05-27 22:21:15,573 | INFO     | [PROTOCOL] TX (127.0.0.1:59840) -> 304 Not Modified
+2026-05-27 22:21:15,573 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:59840.
+
+2026-05-27 22:21:20,574 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:59856
+2026-05-27 22:21:20,574 | INFO     | [PROTOCOL] RX (127.0.0.1:59856) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:21:20,574 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:59856. Operação abortada.
+2026-05-27 22:21:20,574 | INFO     | [PROTOCOL] TX (127.0.0.1:59856) -> 304 Not Modified
+2026-05-27 22:21:20,574 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:59856.
+
+2026-05-27 22:21:25,575 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48840
+2026-05-27 22:21:25,575 | INFO     | [PROTOCOL] RX (127.0.0.1:48840) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:21:25,575 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48840. Operação abortada.
+2026-05-27 22:21:25,575 | INFO     | [PROTOCOL] TX (127.0.0.1:48840) -> 304 Not Modified
+2026-05-27 22:21:25,575 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48840.
+
+2026-05-27 22:21:30,576 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48848
+2026-05-27 22:21:30,576 | INFO     | [PROTOCOL] RX (127.0.0.1:48848) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:21:30,576 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48848. Operação abortada.
+2026-05-27 22:21:30,576 | INFO     | [PROTOCOL] TX (127.0.0.1:48848) -> 304 Not Modified
+2026-05-27 22:21:30,576 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48848.
+
+2026-05-27 22:21:35,577 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:32922
+2026-05-27 22:21:35,577 | INFO     | [PROTOCOL] RX (127.0.0.1:32922) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:21:35,577 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:32922. Operação abortada.
+2026-05-27 22:21:35,577 | INFO     | [PROTOCOL] TX (127.0.0.1:32922) -> 304 Not Modified
+2026-05-27 22:21:35,577 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:32922.
+
+2026-05-27 22:21:40,578 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:32924
+2026-05-27 22:21:40,578 | INFO     | [PROTOCOL] RX (127.0.0.1:32924) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:21:40,578 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:32924. Operação abortada.
+2026-05-27 22:21:40,578 | INFO     | [PROTOCOL] TX (127.0.0.1:32924) -> 304 Not Modified
+2026-05-27 22:21:40,578 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:32924.
+
+2026-05-27 22:21:45,579 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:33294
+2026-05-27 22:21:45,579 | INFO     | [PROTOCOL] RX (127.0.0.1:33294) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:21:45,579 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:33294. Operação abortada.
+2026-05-27 22:21:45,579 | INFO     | [PROTOCOL] TX (127.0.0.1:33294) -> 304 Not Modified
+2026-05-27 22:21:45,579 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:33294.
+
+2026-05-27 22:21:50,580 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:33304
+2026-05-27 22:21:50,580 | INFO     | [PROTOCOL] RX (127.0.0.1:33304) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:21:50,580 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:33304. Operação abortada.
+2026-05-27 22:21:50,580 | INFO     | [PROTOCOL] TX (127.0.0.1:33304) -> 304 Not Modified
+2026-05-27 22:21:50,580 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:33304.
+
+2026-05-27 22:21:55,581 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:35442
+2026-05-27 22:21:55,581 | INFO     | [PROTOCOL] RX (127.0.0.1:35442) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:21:55,581 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:35442. Operação abortada.
+2026-05-27 22:21:55,581 | INFO     | [PROTOCOL] TX (127.0.0.1:35442) -> 304 Not Modified
+2026-05-27 22:21:55,581 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:35442.
+
+2026-05-27 22:22:00,582 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:35452
+2026-05-27 22:22:00,582 | INFO     | [PROTOCOL] RX (127.0.0.1:35452) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:00,582 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:35452. Operação abortada.
+2026-05-27 22:22:00,582 | INFO     | [PROTOCOL] TX (127.0.0.1:35452) -> 304 Not Modified
+2026-05-27 22:22:00,582 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:35452.
+
+2026-05-27 22:22:05,582 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36180
+2026-05-27 22:22:05,583 | INFO     | [PROTOCOL] RX (127.0.0.1:36180) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:05,583 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36180. Operação abortada.
+2026-05-27 22:22:05,583 | INFO     | [PROTOCOL] TX (127.0.0.1:36180) -> 304 Not Modified
+2026-05-27 22:22:05,583 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36180.
+
+2026-05-27 22:22:07,255 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36196
+2026-05-27 22:22:07,255 | INFO     | [PROTOCOL] RX (127.0.0.1:36196) <- CHECK_CONF 390bdf8880c1728ded9
+2026-05-27 22:22:07,256 | INFO     | [SYNC]    Obsolescência detectada para 127.0.0.1:36196. Iniciando provisionamento.
+2026-05-27 22:22:07,256 | INFO     | [NETWORK] Data Socket BIND temporário -> tcp://127.0.0.1:8020
+2026-05-27 22:22:07,256 | INFO     | [PROTOCOL] TX (127.0.0.1:36196) -> 150 ACCEPTED PORT 8020
+2026-05-27 22:22:07,256 | INFO     | [SESSION] Canal de DADOS aberto com sucesso. Origem: 127.0.0.1:46456
+2026-05-27 22:22:07,256 | INFO     | [FILE_IO] Transferência concluída. 139 bytes transmitidos.
+2026-05-27 22:22:07,256 | INFO     | [PROTOCOL] TX (127.0.0.1:36196) -> 226 Transfer Complete
+2026-05-27 22:22:07,256 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36196.
+
+2026-05-27 22:22:10,584 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36202
+2026-05-27 22:22:10,584 | INFO     | [PROTOCOL] RX (127.0.0.1:36202) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:10,584 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36202. Operação abortada.
+2026-05-27 22:22:10,584 | INFO     | [PROTOCOL] TX (127.0.0.1:36202) -> 304 Not Modified
+2026-05-27 22:22:10,584 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36202.
+
+2026-05-27 22:22:12,259 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36212
+2026-05-27 22:22:12,260 | INFO     | [PROTOCOL] RX (127.0.0.1:36212) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:12,260 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36212. Operação abortada.
+2026-05-27 22:22:12,260 | INFO     | [PROTOCOL] TX (127.0.0.1:36212) -> 304 Not Modified
+2026-05-27 22:22:12,260 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36212.
+
+2026-05-27 22:22:15,585 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:42262
+2026-05-27 22:22:15,585 | INFO     | [PROTOCOL] RX (127.0.0.1:42262) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:15,585 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:42262. Operação abortada.
+2026-05-27 22:22:15,585 | INFO     | [PROTOCOL] TX (127.0.0.1:42262) -> 304 Not Modified
+2026-05-27 22:22:15,585 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:42262.
+
+2026-05-27 22:22:17,260 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:42272
+2026-05-27 22:22:17,261 | INFO     | [PROTOCOL] RX (127.0.0.1:42272) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:17,261 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:42272. Operação abortada.
+2026-05-27 22:22:17,261 | INFO     | [PROTOCOL] TX (127.0.0.1:42272) -> 304 Not Modified
+2026-05-27 22:22:17,261 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:42272.
+
+2026-05-27 22:22:20,586 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:42286
+2026-05-27 22:22:20,586 | INFO     | [PROTOCOL] RX (127.0.0.1:42286) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:20,586 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:42286. Operação abortada.
+2026-05-27 22:22:20,586 | INFO     | [PROTOCOL] TX (127.0.0.1:42286) -> 304 Not Modified
+2026-05-27 22:22:20,586 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:42286.
+
+2026-05-27 22:22:22,261 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:42292
+2026-05-27 22:22:22,261 | INFO     | [PROTOCOL] RX (127.0.0.1:42292) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:22,262 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:42292. Operação abortada.
+2026-05-27 22:22:22,262 | INFO     | [PROTOCOL] TX (127.0.0.1:42292) -> 304 Not Modified
+2026-05-27 22:22:22,262 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:42292.
+
+2026-05-27 22:22:25,586 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:59284
+2026-05-27 22:22:25,586 | INFO     | [PROTOCOL] RX (127.0.0.1:59284) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:25,587 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:59284. Operação abortada.
+2026-05-27 22:22:25,587 | INFO     | [PROTOCOL] TX (127.0.0.1:59284) -> 304 Not Modified
+2026-05-27 22:22:25,587 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:59284.
+
+2026-05-27 22:22:27,262 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:59288
+2026-05-27 22:22:27,262 | INFO     | [PROTOCOL] RX (127.0.0.1:59288) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:27,262 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:59288. Operação abortada.
+2026-05-27 22:22:27,263 | INFO     | [PROTOCOL] TX (127.0.0.1:59288) -> 304 Not Modified
+2026-05-27 22:22:27,263 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:59288.
+
+2026-05-27 22:22:30,587 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:59292
+2026-05-27 22:22:30,587 | INFO     | [PROTOCOL] RX (127.0.0.1:59292) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:30,587 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:59292. Operação abortada.
+2026-05-27 22:22:30,587 | INFO     | [PROTOCOL] TX (127.0.0.1:59292) -> 304 Not Modified
+2026-05-27 22:22:30,587 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:59292.
+
+2026-05-27 22:22:32,263 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:59294
+2026-05-27 22:22:32,263 | INFO     | [PROTOCOL] RX (127.0.0.1:59294) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:32,263 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:59294. Operação abortada.
+2026-05-27 22:22:32,263 | INFO     | [PROTOCOL] TX (127.0.0.1:59294) -> 304 Not Modified
+2026-05-27 22:22:32,264 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:59294.
+
+2026-05-27 22:22:35,588 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:42822
+2026-05-27 22:22:35,588 | INFO     | [PROTOCOL] RX (127.0.0.1:42822) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:35,588 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:42822. Operação abortada.
+2026-05-27 22:22:35,588 | INFO     | [PROTOCOL] TX (127.0.0.1:42822) -> 304 Not Modified
+2026-05-27 22:22:35,588 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:42822.
+
+2026-05-27 22:22:37,264 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:42828
+2026-05-27 22:22:37,264 | INFO     | [PROTOCOL] RX (127.0.0.1:42828) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:37,264 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:42828. Operação abortada.
+2026-05-27 22:22:37,264 | INFO     | [PROTOCOL] TX (127.0.0.1:42828) -> 304 Not Modified
+2026-05-27 22:22:37,264 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:42828.
+
+2026-05-27 22:22:40,589 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:42836
+2026-05-27 22:22:40,589 | INFO     | [PROTOCOL] RX (127.0.0.1:42836) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:40,589 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:42836. Operação abortada.
+2026-05-27 22:22:40,589 | INFO     | [PROTOCOL] TX (127.0.0.1:42836) -> 304 Not Modified
+2026-05-27 22:22:40,589 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:42836.
+
+2026-05-27 22:22:42,265 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:42840
+2026-05-27 22:22:42,265 | INFO     | [PROTOCOL] RX (127.0.0.1:42840) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:42,265 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:42840. Operação abortada.
+2026-05-27 22:22:42,265 | INFO     | [PROTOCOL] TX (127.0.0.1:42840) -> 304 Not Modified
+2026-05-27 22:22:42,265 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:42840.
+
+2026-05-27 22:22:45,589 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:34270
+2026-05-27 22:22:45,590 | INFO     | [PROTOCOL] RX (127.0.0.1:34270) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:45,590 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:34270. Operação abortada.
+2026-05-27 22:22:45,590 | INFO     | [PROTOCOL] TX (127.0.0.1:34270) -> 304 Not Modified
+2026-05-27 22:22:45,590 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:34270.
+
+2026-05-27 22:22:47,266 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:34282
+2026-05-27 22:22:47,266 | INFO     | [PROTOCOL] RX (127.0.0.1:34282) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:47,266 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:34282. Operação abortada.
+2026-05-27 22:22:47,266 | INFO     | [PROTOCOL] TX (127.0.0.1:34282) -> 304 Not Modified
+2026-05-27 22:22:47,266 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:34282.
+
+2026-05-27 22:22:50,590 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:34290
+2026-05-27 22:22:50,591 | INFO     | [PROTOCOL] RX (127.0.0.1:34290) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:50,591 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:34290. Operação abortada.
+2026-05-27 22:22:50,591 | INFO     | [PROTOCOL] TX (127.0.0.1:34290) -> 304 Not Modified
+2026-05-27 22:22:50,591 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:34290.
+
+2026-05-27 22:22:52,267 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:34306
+2026-05-27 22:22:52,267 | INFO     | [PROTOCOL] RX (127.0.0.1:34306) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:52,267 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:34306. Operação abortada.
+2026-05-27 22:22:52,267 | INFO     | [PROTOCOL] TX (127.0.0.1:34306) -> 304 Not Modified
+2026-05-27 22:22:52,267 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:34306.
+
+2026-05-27 22:22:55,591 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41904
+2026-05-27 22:22:55,592 | INFO     | [PROTOCOL] RX (127.0.0.1:41904) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:55,592 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41904. Operação abortada.
+2026-05-27 22:22:55,592 | INFO     | [PROTOCOL] TX (127.0.0.1:41904) -> 304 Not Modified
+2026-05-27 22:22:55,592 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41904.
+
+2026-05-27 22:22:57,268 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41908
+2026-05-27 22:22:57,268 | INFO     | [PROTOCOL] RX (127.0.0.1:41908) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:22:57,268 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41908. Operação abortada.
+2026-05-27 22:22:57,268 | INFO     | [PROTOCOL] TX (127.0.0.1:41908) -> 304 Not Modified
+2026-05-27 22:22:57,268 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41908.
+
+2026-05-27 22:23:00,592 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41910
+2026-05-27 22:23:00,593 | INFO     | [PROTOCOL] RX (127.0.0.1:41910) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:00,593 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41910. Operação abortada.
+2026-05-27 22:23:00,593 | INFO     | [PROTOCOL] TX (127.0.0.1:41910) -> 304 Not Modified
+2026-05-27 22:23:00,593 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41910.
+
+2026-05-27 22:23:02,269 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41920
+2026-05-27 22:23:02,269 | INFO     | [PROTOCOL] RX (127.0.0.1:41920) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:02,269 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41920. Operação abortada.
+2026-05-27 22:23:02,269 | INFO     | [PROTOCOL] TX (127.0.0.1:41920) -> 304 Not Modified
+2026-05-27 22:23:02,269 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41920.
+
+2026-05-27 22:23:05,593 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:58436
+2026-05-27 22:23:05,593 | INFO     | [PROTOCOL] RX (127.0.0.1:58436) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:05,593 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:58436. Operação abortada.
+2026-05-27 22:23:05,594 | INFO     | [PROTOCOL] TX (127.0.0.1:58436) -> 304 Not Modified
+2026-05-27 22:23:05,594 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:58436.
+
+2026-05-27 22:23:07,270 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:58442
+2026-05-27 22:23:07,270 | INFO     | [PROTOCOL] RX (127.0.0.1:58442) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:07,270 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:58442. Operação abortada.
+2026-05-27 22:23:07,270 | INFO     | [PROTOCOL] TX (127.0.0.1:58442) -> 304 Not Modified
+2026-05-27 22:23:07,270 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:58442.
+
+2026-05-27 22:23:10,595 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:58450
+2026-05-27 22:23:10,595 | INFO     | [PROTOCOL] RX (127.0.0.1:58450) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:10,595 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:58450. Operação abortada.
+2026-05-27 22:23:10,595 | INFO     | [PROTOCOL] TX (127.0.0.1:58450) -> 304 Not Modified
+2026-05-27 22:23:10,595 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:58450.
+
+2026-05-27 22:23:12,271 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:58456
+2026-05-27 22:23:12,271 | INFO     | [PROTOCOL] RX (127.0.0.1:58456) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:12,271 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:58456. Operação abortada.
+2026-05-27 22:23:12,271 | INFO     | [PROTOCOL] TX (127.0.0.1:58456) -> 304 Not Modified
+2026-05-27 22:23:12,272 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:58456.
+
+2026-05-27 22:23:15,596 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:44420
+2026-05-27 22:23:15,597 | INFO     | [PROTOCOL] RX (127.0.0.1:44420) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:15,597 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:44420. Operação abortada.
+2026-05-27 22:23:15,597 | INFO     | [PROTOCOL] TX (127.0.0.1:44420) -> 304 Not Modified
+2026-05-27 22:23:15,597 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:44420.
+
+2026-05-27 22:23:17,273 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:44424
+2026-05-27 22:23:17,273 | INFO     | [PROTOCOL] RX (127.0.0.1:44424) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:17,273 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:44424. Operação abortada.
+2026-05-27 22:23:17,273 | INFO     | [PROTOCOL] TX (127.0.0.1:44424) -> 304 Not Modified
+2026-05-27 22:23:17,273 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:44424.
+
+2026-05-27 22:23:20,598 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:44438
+2026-05-27 22:23:20,598 | INFO     | [PROTOCOL] RX (127.0.0.1:44438) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:20,598 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:44438. Operação abortada.
+2026-05-27 22:23:20,599 | INFO     | [PROTOCOL] TX (127.0.0.1:44438) -> 304 Not Modified
+2026-05-27 22:23:20,599 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:44438.
+
+2026-05-27 22:23:22,275 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:44446
+2026-05-27 22:23:22,275 | INFO     | [PROTOCOL] RX (127.0.0.1:44446) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:22,275 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:44446. Operação abortada.
+2026-05-27 22:23:22,275 | INFO     | [PROTOCOL] TX (127.0.0.1:44446) -> 304 Not Modified
+2026-05-27 22:23:22,275 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:44446.
+
+2026-05-27 22:23:25,599 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:50050
+2026-05-27 22:23:25,599 | INFO     | [PROTOCOL] RX (127.0.0.1:50050) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:25,600 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:50050. Operação abortada.
+2026-05-27 22:23:25,600 | INFO     | [PROTOCOL] TX (127.0.0.1:50050) -> 304 Not Modified
+2026-05-27 22:23:25,600 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:50050.
+
+2026-05-27 22:23:27,276 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:50058
+2026-05-27 22:23:27,276 | INFO     | [PROTOCOL] RX (127.0.0.1:50058) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:27,276 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:50058. Operação abortada.
+2026-05-27 22:23:27,276 | INFO     | [PROTOCOL] TX (127.0.0.1:50058) -> 304 Not Modified
+2026-05-27 22:23:27,276 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:50058.
+
+2026-05-27 22:23:30,601 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:50062
+2026-05-27 22:23:30,601 | INFO     | [PROTOCOL] RX (127.0.0.1:50062) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:30,601 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:50062. Operação abortada.
+2026-05-27 22:23:30,601 | INFO     | [PROTOCOL] TX (127.0.0.1:50062) -> 304 Not Modified
+2026-05-27 22:23:30,601 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:50062.
+
+2026-05-27 22:23:32,276 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:50070
+2026-05-27 22:23:32,277 | INFO     | [PROTOCOL] RX (127.0.0.1:50070) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:32,277 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:50070. Operação abortada.
+2026-05-27 22:23:32,277 | INFO     | [PROTOCOL] TX (127.0.0.1:50070) -> 304 Not Modified
+2026-05-27 22:23:32,277 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:50070.
+
+2026-05-27 22:23:35,602 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:44830
+2026-05-27 22:23:35,602 | INFO     | [PROTOCOL] RX (127.0.0.1:44830) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:35,602 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:44830. Operação abortada.
+2026-05-27 22:23:35,602 | INFO     | [PROTOCOL] TX (127.0.0.1:44830) -> 304 Not Modified
+2026-05-27 22:23:35,603 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:44830.
+
+2026-05-27 22:23:37,277 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:44832
+2026-05-27 22:23:37,277 | INFO     | [PROTOCOL] RX (127.0.0.1:44832) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:37,277 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:44832. Operação abortada.
+2026-05-27 22:23:37,277 | INFO     | [PROTOCOL] TX (127.0.0.1:44832) -> 304 Not Modified
+2026-05-27 22:23:37,277 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:44832.
+
+2026-05-27 22:23:40,604 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:44842
+2026-05-27 22:23:40,604 | INFO     | [PROTOCOL] RX (127.0.0.1:44842) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:40,604 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:44842. Operação abortada.
+2026-05-27 22:23:40,604 | INFO     | [PROTOCOL] TX (127.0.0.1:44842) -> 304 Not Modified
+2026-05-27 22:23:40,604 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:44842.
+
+2026-05-27 22:23:42,278 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:44848
+2026-05-27 22:23:42,278 | INFO     | [PROTOCOL] RX (127.0.0.1:44848) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:42,279 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:44848. Operação abortada.
+2026-05-27 22:23:42,279 | INFO     | [PROTOCOL] TX (127.0.0.1:44848) -> 304 Not Modified
+2026-05-27 22:23:42,279 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:44848.
+
+2026-05-27 22:23:45,605 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:54390
+2026-05-27 22:23:45,605 | INFO     | [PROTOCOL] RX (127.0.0.1:54390) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:45,606 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:54390. Operação abortada.
+2026-05-27 22:23:45,606 | INFO     | [PROTOCOL] TX (127.0.0.1:54390) -> 304 Not Modified
+2026-05-27 22:23:45,606 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:54390.
+
+2026-05-27 22:23:47,280 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:54406
+2026-05-27 22:23:47,280 | INFO     | [PROTOCOL] RX (127.0.0.1:54406) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:47,280 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:54406. Operação abortada.
+2026-05-27 22:23:47,280 | INFO     | [PROTOCOL] TX (127.0.0.1:54406) -> 304 Not Modified
+2026-05-27 22:23:47,280 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:54406.
+
+2026-05-27 22:23:50,607 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:54420
+2026-05-27 22:23:50,607 | INFO     | [PROTOCOL] RX (127.0.0.1:54420) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:50,607 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:54420. Operação abortada.
+2026-05-27 22:23:50,607 | INFO     | [PROTOCOL] TX (127.0.0.1:54420) -> 304 Not Modified
+2026-05-27 22:23:50,607 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:54420.
+
+2026-05-27 22:23:52,281 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:54430
+2026-05-27 22:23:52,282 | INFO     | [PROTOCOL] RX (127.0.0.1:54430) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:52,282 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:54430. Operação abortada.
+2026-05-27 22:23:52,282 | INFO     | [PROTOCOL] TX (127.0.0.1:54430) -> 304 Not Modified
+2026-05-27 22:23:52,282 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:54430.
+
+2026-05-27 22:23:55,607 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41968
+2026-05-27 22:23:55,608 | INFO     | [PROTOCOL] RX (127.0.0.1:41968) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:55,608 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41968. Operação abortada.
+2026-05-27 22:23:55,608 | INFO     | [PROTOCOL] TX (127.0.0.1:41968) -> 304 Not Modified
+2026-05-27 22:23:55,608 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41968.
+
+2026-05-27 22:23:57,283 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41984
+2026-05-27 22:23:57,283 | INFO     | [PROTOCOL] RX (127.0.0.1:41984) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:23:57,283 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41984. Operação abortada.
+2026-05-27 22:23:57,284 | INFO     | [PROTOCOL] TX (127.0.0.1:41984) -> 304 Not Modified
+2026-05-27 22:23:57,284 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41984.
+
+2026-05-27 22:24:00,608 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41996
+2026-05-27 22:24:00,609 | INFO     | [PROTOCOL] RX (127.0.0.1:41996) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:00,609 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41996. Operação abortada.
+2026-05-27 22:24:00,609 | INFO     | [PROTOCOL] TX (127.0.0.1:41996) -> 304 Not Modified
+2026-05-27 22:24:00,609 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41996.
+
+2026-05-27 22:24:02,285 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41998
+2026-05-27 22:24:02,285 | INFO     | [PROTOCOL] RX (127.0.0.1:41998) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:02,285 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41998. Operação abortada.
+2026-05-27 22:24:02,285 | INFO     | [PROTOCOL] TX (127.0.0.1:41998) -> 304 Not Modified
+2026-05-27 22:24:02,285 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41998.
+
+2026-05-27 22:24:05,610 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:53756
+2026-05-27 22:24:05,610 | INFO     | [PROTOCOL] RX (127.0.0.1:53756) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:05,610 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:53756. Operação abortada.
+2026-05-27 22:24:05,610 | INFO     | [PROTOCOL] TX (127.0.0.1:53756) -> 304 Not Modified
+2026-05-27 22:24:05,611 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:53756.
+
+2026-05-27 22:24:07,286 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:53770
+2026-05-27 22:24:07,286 | INFO     | [PROTOCOL] RX (127.0.0.1:53770) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:07,286 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:53770. Operação abortada.
+2026-05-27 22:24:07,286 | INFO     | [PROTOCOL] TX (127.0.0.1:53770) -> 304 Not Modified
+2026-05-27 22:24:07,287 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:53770.
+
+2026-05-27 22:24:10,612 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:53778
+2026-05-27 22:24:10,612 | INFO     | [PROTOCOL] RX (127.0.0.1:53778) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:10,612 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:53778. Operação abortada.
+2026-05-27 22:24:10,612 | INFO     | [PROTOCOL] TX (127.0.0.1:53778) -> 304 Not Modified
+2026-05-27 22:24:10,612 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:53778.
+
+2026-05-27 22:24:12,288 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:53784
+2026-05-27 22:24:12,288 | INFO     | [PROTOCOL] RX (127.0.0.1:53784) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:12,288 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:53784. Operação abortada.
+2026-05-27 22:24:12,288 | INFO     | [PROTOCOL] TX (127.0.0.1:53784) -> 304 Not Modified
+2026-05-27 22:24:12,288 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:53784.
+
+2026-05-27 22:24:15,613 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46574
+2026-05-27 22:24:15,613 | INFO     | [PROTOCOL] RX (127.0.0.1:46574) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:15,613 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46574. Operação abortada.
+2026-05-27 22:24:15,613 | INFO     | [PROTOCOL] TX (127.0.0.1:46574) -> 304 Not Modified
+2026-05-27 22:24:15,613 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46574.
+
+2026-05-27 22:24:17,289 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46582
+2026-05-27 22:24:17,289 | INFO     | [PROTOCOL] RX (127.0.0.1:46582) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:17,289 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46582. Operação abortada.
+2026-05-27 22:24:17,289 | INFO     | [PROTOCOL] TX (127.0.0.1:46582) -> 304 Not Modified
+2026-05-27 22:24:17,289 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46582.
+
+2026-05-27 22:24:20,613 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46594
+2026-05-27 22:24:20,614 | INFO     | [PROTOCOL] RX (127.0.0.1:46594) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:20,614 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46594. Operação abortada.
+2026-05-27 22:24:20,614 | INFO     | [PROTOCOL] TX (127.0.0.1:46594) -> 304 Not Modified
+2026-05-27 22:24:20,614 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46594.
+
+2026-05-27 22:24:22,290 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46598
+2026-05-27 22:24:22,290 | INFO     | [PROTOCOL] RX (127.0.0.1:46598) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:22,290 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46598. Operação abortada.
+2026-05-27 22:24:22,290 | INFO     | [PROTOCOL] TX (127.0.0.1:46598) -> 304 Not Modified
+2026-05-27 22:24:22,291 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46598.
+
+2026-05-27 22:24:25,614 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:45734
+2026-05-27 22:24:25,614 | INFO     | [PROTOCOL] RX (127.0.0.1:45734) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:25,614 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:45734. Operação abortada.
+2026-05-27 22:24:25,614 | INFO     | [PROTOCOL] TX (127.0.0.1:45734) -> 304 Not Modified
+2026-05-27 22:24:25,615 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:45734.
+
+2026-05-27 22:24:27,291 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:45744
+2026-05-27 22:24:27,291 | INFO     | [PROTOCOL] RX (127.0.0.1:45744) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:27,291 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:45744. Operação abortada.
+2026-05-27 22:24:27,291 | INFO     | [PROTOCOL] TX (127.0.0.1:45744) -> 304 Not Modified
+2026-05-27 22:24:27,291 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:45744.
+
+2026-05-27 22:24:30,615 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:45756
+2026-05-27 22:24:30,615 | INFO     | [PROTOCOL] RX (127.0.0.1:45756) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:30,615 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:45756. Operação abortada.
+2026-05-27 22:24:30,615 | INFO     | [PROTOCOL] TX (127.0.0.1:45756) -> 304 Not Modified
+2026-05-27 22:24:30,615 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:45756.
+
+2026-05-27 22:24:32,292 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:45772
+2026-05-27 22:24:32,292 | INFO     | [PROTOCOL] RX (127.0.0.1:45772) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:32,292 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:45772. Operação abortada.
+2026-05-27 22:24:32,292 | INFO     | [PROTOCOL] TX (127.0.0.1:45772) -> 304 Not Modified
+2026-05-27 22:24:32,292 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:45772.
+
+2026-05-27 22:24:35,616 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48510
+2026-05-27 22:24:35,616 | INFO     | [PROTOCOL] RX (127.0.0.1:48510) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:35,616 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48510. Operação abortada.
+2026-05-27 22:24:35,616 | INFO     | [PROTOCOL] TX (127.0.0.1:48510) -> 304 Not Modified
+2026-05-27 22:24:35,616 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48510.
+
+2026-05-27 22:24:37,293 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48524
+2026-05-27 22:24:37,293 | INFO     | [PROTOCOL] RX (127.0.0.1:48524) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:37,293 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48524. Operação abortada.
+2026-05-27 22:24:37,293 | INFO     | [PROTOCOL] TX (127.0.0.1:48524) -> 304 Not Modified
+2026-05-27 22:24:37,293 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48524.
+
+2026-05-27 22:24:40,617 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48540
+2026-05-27 22:24:40,617 | INFO     | [PROTOCOL] RX (127.0.0.1:48540) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:40,617 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48540. Operação abortada.
+2026-05-27 22:24:40,617 | INFO     | [PROTOCOL] TX (127.0.0.1:48540) -> 304 Not Modified
+2026-05-27 22:24:40,617 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48540.
+
+2026-05-27 22:24:42,294 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48544
+2026-05-27 22:24:42,294 | INFO     | [PROTOCOL] RX (127.0.0.1:48544) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:42,294 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48544. Operação abortada.
+2026-05-27 22:24:42,294 | INFO     | [PROTOCOL] TX (127.0.0.1:48544) -> 304 Not Modified
+2026-05-27 22:24:42,294 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48544.
+
+2026-05-27 22:24:45,617 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:54938
+2026-05-27 22:24:45,617 | INFO     | [PROTOCOL] RX (127.0.0.1:54938) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:45,617 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:54938. Operação abortada.
+2026-05-27 22:24:45,617 | INFO     | [PROTOCOL] TX (127.0.0.1:54938) -> 304 Not Modified
+2026-05-27 22:24:45,618 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:54938.
+
+2026-05-27 22:24:47,295 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:54944
+2026-05-27 22:24:47,295 | INFO     | [PROTOCOL] RX (127.0.0.1:54944) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:47,295 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:54944. Operação abortada.
+2026-05-27 22:24:47,295 | INFO     | [PROTOCOL] TX (127.0.0.1:54944) -> 304 Not Modified
+2026-05-27 22:24:47,295 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:54944.
+
+2026-05-27 22:24:50,618 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:54946
+2026-05-27 22:24:50,618 | INFO     | [PROTOCOL] RX (127.0.0.1:54946) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:50,618 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:54946. Operação abortada.
+2026-05-27 22:24:50,618 | INFO     | [PROTOCOL] TX (127.0.0.1:54946) -> 304 Not Modified
+2026-05-27 22:24:50,618 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:54946.
+
+2026-05-27 22:24:52,296 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:54950
+2026-05-27 22:24:52,296 | INFO     | [PROTOCOL] RX (127.0.0.1:54950) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:52,296 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:54950. Operação abortada.
+2026-05-27 22:24:52,296 | INFO     | [PROTOCOL] TX (127.0.0.1:54950) -> 304 Not Modified
+2026-05-27 22:24:52,296 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:54950.
+
+2026-05-27 22:24:55,619 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:37566
+2026-05-27 22:24:55,619 | INFO     | [PROTOCOL] RX (127.0.0.1:37566) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:55,619 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:37566. Operação abortada.
+2026-05-27 22:24:55,619 | INFO     | [PROTOCOL] TX (127.0.0.1:37566) -> 304 Not Modified
+2026-05-27 22:24:55,619 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:37566.
+
+2026-05-27 22:24:57,297 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:37576
+2026-05-27 22:24:57,298 | INFO     | [PROTOCOL] RX (127.0.0.1:37576) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:24:57,298 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:37576. Operação abortada.
+2026-05-27 22:24:57,298 | INFO     | [PROTOCOL] TX (127.0.0.1:37576) -> 304 Not Modified
+2026-05-27 22:24:57,298 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:37576.
+
+2026-05-27 22:25:00,619 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:37592
+2026-05-27 22:25:00,620 | INFO     | [PROTOCOL] RX (127.0.0.1:37592) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:00,620 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:37592. Operação abortada.
+2026-05-27 22:25:00,620 | INFO     | [PROTOCOL] TX (127.0.0.1:37592) -> 304 Not Modified
+2026-05-27 22:25:00,620 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:37592.
+
+2026-05-27 22:25:02,299 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:37600
+2026-05-27 22:25:02,299 | INFO     | [PROTOCOL] RX (127.0.0.1:37600) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:02,299 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:37600. Operação abortada.
+2026-05-27 22:25:02,300 | INFO     | [PROTOCOL] TX (127.0.0.1:37600) -> 304 Not Modified
+2026-05-27 22:25:02,300 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:37600.
+
+2026-05-27 22:25:05,620 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:56466
+2026-05-27 22:25:05,620 | INFO     | [PROTOCOL] RX (127.0.0.1:56466) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:05,620 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:56466. Operação abortada.
+2026-05-27 22:25:05,621 | INFO     | [PROTOCOL] TX (127.0.0.1:56466) -> 304 Not Modified
+2026-05-27 22:25:05,621 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:56466.
+
+2026-05-27 22:25:07,301 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:56470
+2026-05-27 22:25:07,301 | INFO     | [PROTOCOL] RX (127.0.0.1:56470) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:07,301 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:56470. Operação abortada.
+2026-05-27 22:25:07,301 | INFO     | [PROTOCOL] TX (127.0.0.1:56470) -> 304 Not Modified
+2026-05-27 22:25:07,301 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:56470.
+
+2026-05-27 22:25:10,621 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:56476
+2026-05-27 22:25:10,621 | INFO     | [PROTOCOL] RX (127.0.0.1:56476) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:10,621 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:56476. Operação abortada.
+2026-05-27 22:25:10,621 | INFO     | [PROTOCOL] TX (127.0.0.1:56476) -> 304 Not Modified
+2026-05-27 22:25:10,621 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:56476.
+
+2026-05-27 22:25:12,302 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:56484
+2026-05-27 22:25:12,303 | INFO     | [PROTOCOL] RX (127.0.0.1:56484) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:12,303 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:56484. Operação abortada.
+2026-05-27 22:25:12,303 | INFO     | [PROTOCOL] TX (127.0.0.1:56484) -> 304 Not Modified
+2026-05-27 22:25:12,303 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:56484.
+
+2026-05-27 22:25:15,622 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:37906
+2026-05-27 22:25:15,622 | INFO     | [PROTOCOL] RX (127.0.0.1:37906) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:15,622 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:37906. Operação abortada.
+2026-05-27 22:25:15,622 | INFO     | [PROTOCOL] TX (127.0.0.1:37906) -> 304 Not Modified
+2026-05-27 22:25:15,622 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:37906.
+
+2026-05-27 22:25:17,304 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:37920
+2026-05-27 22:25:17,304 | INFO     | [PROTOCOL] RX (127.0.0.1:37920) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:17,304 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:37920. Operação abortada.
+2026-05-27 22:25:17,304 | INFO     | [PROTOCOL] TX (127.0.0.1:37920) -> 304 Not Modified
+2026-05-27 22:25:17,305 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:37920.
+
+2026-05-27 22:25:20,623 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:37936
+2026-05-27 22:25:20,623 | INFO     | [PROTOCOL] RX (127.0.0.1:37936) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:20,623 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:37936. Operação abortada.
+2026-05-27 22:25:20,623 | INFO     | [PROTOCOL] TX (127.0.0.1:37936) -> 304 Not Modified
+2026-05-27 22:25:20,623 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:37936.
+
+2026-05-27 22:25:22,305 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:37950
+2026-05-27 22:25:22,306 | INFO     | [PROTOCOL] RX (127.0.0.1:37950) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:22,306 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:37950. Operação abortada.
+2026-05-27 22:25:22,306 | INFO     | [PROTOCOL] TX (127.0.0.1:37950) -> 304 Not Modified
+2026-05-27 22:25:22,306 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:37950.
+
+2026-05-27 22:25:25,624 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:55976
+2026-05-27 22:25:25,624 | INFO     | [PROTOCOL] RX (127.0.0.1:55976) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:25,624 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:55976. Operação abortada.
+2026-05-27 22:25:25,624 | INFO     | [PROTOCOL] TX (127.0.0.1:55976) -> 304 Not Modified
+2026-05-27 22:25:25,624 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:55976.
+
+2026-05-27 22:25:27,306 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:55992
+2026-05-27 22:25:27,307 | INFO     | [PROTOCOL] RX (127.0.0.1:55992) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:27,307 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:55992. Operação abortada.
+2026-05-27 22:25:27,307 | INFO     | [PROTOCOL] TX (127.0.0.1:55992) -> 304 Not Modified
+2026-05-27 22:25:27,307 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:55992.
+
+2026-05-27 22:25:30,624 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:56008
+2026-05-27 22:25:30,625 | INFO     | [PROTOCOL] RX (127.0.0.1:56008) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:30,625 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:56008. Operação abortada.
+2026-05-27 22:25:30,625 | INFO     | [PROTOCOL] TX (127.0.0.1:56008) -> 304 Not Modified
+2026-05-27 22:25:30,625 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:56008.
+
+2026-05-27 22:25:32,308 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:56010
+2026-05-27 22:25:32,308 | INFO     | [PROTOCOL] RX (127.0.0.1:56010) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:32,308 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:56010. Operação abortada.
+2026-05-27 22:25:32,308 | INFO     | [PROTOCOL] TX (127.0.0.1:56010) -> 304 Not Modified
+2026-05-27 22:25:32,308 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:56010.
+
+2026-05-27 22:25:35,625 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46826
+2026-05-27 22:25:35,626 | INFO     | [PROTOCOL] RX (127.0.0.1:46826) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:35,626 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46826. Operação abortada.
+2026-05-27 22:25:35,626 | INFO     | [PROTOCOL] TX (127.0.0.1:46826) -> 304 Not Modified
+2026-05-27 22:25:35,626 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46826.
+
+2026-05-27 22:25:37,309 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46832
+2026-05-27 22:25:37,309 | INFO     | [PROTOCOL] RX (127.0.0.1:46832) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:37,310 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46832. Operação abortada.
+2026-05-27 22:25:37,310 | INFO     | [PROTOCOL] TX (127.0.0.1:46832) -> 304 Not Modified
+2026-05-27 22:25:37,310 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46832.
+
+2026-05-27 22:25:40,627 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46836
+2026-05-27 22:25:40,627 | INFO     | [PROTOCOL] RX (127.0.0.1:46836) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:40,627 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46836. Operação abortada.
+2026-05-27 22:25:40,627 | INFO     | [PROTOCOL] TX (127.0.0.1:46836) -> 304 Not Modified
+2026-05-27 22:25:40,627 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46836.
+
+2026-05-27 22:25:42,311 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46840
+2026-05-27 22:25:42,311 | INFO     | [PROTOCOL] RX (127.0.0.1:46840) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:42,311 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46840. Operação abortada.
+2026-05-27 22:25:42,311 | INFO     | [PROTOCOL] TX (127.0.0.1:46840) -> 304 Not Modified
+2026-05-27 22:25:42,311 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46840.
+
+2026-05-27 22:25:45,628 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:38800
+2026-05-27 22:25:45,628 | INFO     | [PROTOCOL] RX (127.0.0.1:38800) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:45,629 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:38800. Operação abortada.
+2026-05-27 22:25:45,629 | INFO     | [PROTOCOL] TX (127.0.0.1:38800) -> 304 Not Modified
+2026-05-27 22:25:45,629 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:38800.
+
+2026-05-27 22:25:47,312 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:38806
+2026-05-27 22:25:47,312 | INFO     | [PROTOCOL] RX (127.0.0.1:38806) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:47,312 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:38806. Operação abortada.
+2026-05-27 22:25:47,312 | INFO     | [PROTOCOL] TX (127.0.0.1:38806) -> 304 Not Modified
+2026-05-27 22:25:47,312 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:38806.
+
+2026-05-27 22:25:50,630 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:38816
+2026-05-27 22:25:50,630 | INFO     | [PROTOCOL] RX (127.0.0.1:38816) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:50,630 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:38816. Operação abortada.
+2026-05-27 22:25:50,630 | INFO     | [PROTOCOL] TX (127.0.0.1:38816) -> 304 Not Modified
+2026-05-27 22:25:50,630 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:38816.
+
+2026-05-27 22:25:52,313 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:38824
+2026-05-27 22:25:52,313 | INFO     | [PROTOCOL] RX (127.0.0.1:38824) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:52,313 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:38824. Operação abortada.
+2026-05-27 22:25:52,313 | INFO     | [PROTOCOL] TX (127.0.0.1:38824) -> 304 Not Modified
+2026-05-27 22:25:52,313 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:38824.
+
+2026-05-27 22:25:55,631 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:33546
+2026-05-27 22:25:55,632 | INFO     | [PROTOCOL] RX (127.0.0.1:33546) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:55,632 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:33546. Operação abortada.
+2026-05-27 22:25:55,632 | INFO     | [PROTOCOL] TX (127.0.0.1:33546) -> 304 Not Modified
+2026-05-27 22:25:55,632 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:33546.
+
+2026-05-27 22:25:57,314 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:33550
+2026-05-27 22:25:57,314 | INFO     | [PROTOCOL] RX (127.0.0.1:33550) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:25:57,314 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:33550. Operação abortada.
+2026-05-27 22:25:57,314 | INFO     | [PROTOCOL] TX (127.0.0.1:33550) -> 304 Not Modified
+2026-05-27 22:25:57,314 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:33550.
+
+2026-05-27 22:26:00,633 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:33556
+2026-05-27 22:26:00,633 | INFO     | [PROTOCOL] RX (127.0.0.1:33556) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:00,633 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:33556. Operação abortada.
+2026-05-27 22:26:00,633 | INFO     | [PROTOCOL] TX (127.0.0.1:33556) -> 304 Not Modified
+2026-05-27 22:26:00,634 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:33556.
+
+2026-05-27 22:26:02,315 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:33566
+2026-05-27 22:26:02,315 | INFO     | [PROTOCOL] RX (127.0.0.1:33566) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:02,315 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:33566. Operação abortada.
+2026-05-27 22:26:02,315 | INFO     | [PROTOCOL] TX (127.0.0.1:33566) -> 304 Not Modified
+2026-05-27 22:26:02,315 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:33566.
+
+2026-05-27 22:26:05,635 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:37204
+2026-05-27 22:26:05,635 | INFO     | [PROTOCOL] RX (127.0.0.1:37204) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:05,635 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:37204. Operação abortada.
+2026-05-27 22:26:05,635 | INFO     | [PROTOCOL] TX (127.0.0.1:37204) -> 304 Not Modified
+2026-05-27 22:26:05,635 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:37204.
+
+2026-05-27 22:26:07,316 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:37218
+2026-05-27 22:26:07,316 | INFO     | [PROTOCOL] RX (127.0.0.1:37218) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:07,316 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:37218. Operação abortada.
+2026-05-27 22:26:07,316 | INFO     | [PROTOCOL] TX (127.0.0.1:37218) -> 304 Not Modified
+2026-05-27 22:26:07,316 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:37218.
+
+2026-05-27 22:26:10,636 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:37222
+2026-05-27 22:26:10,636 | INFO     | [PROTOCOL] RX (127.0.0.1:37222) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:10,636 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:37222. Operação abortada.
+2026-05-27 22:26:10,637 | INFO     | [PROTOCOL] TX (127.0.0.1:37222) -> 304 Not Modified
+2026-05-27 22:26:10,637 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:37222.
+
+2026-05-27 22:26:12,317 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:37238
+2026-05-27 22:26:12,318 | INFO     | [PROTOCOL] RX (127.0.0.1:37238) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:12,318 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:37238. Operação abortada.
+2026-05-27 22:26:12,318 | INFO     | [PROTOCOL] TX (127.0.0.1:37238) -> 304 Not Modified
+2026-05-27 22:26:12,318 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:37238.
+
+2026-05-27 22:26:15,638 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:55150
+2026-05-27 22:26:15,638 | INFO     | [PROTOCOL] RX (127.0.0.1:55150) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:15,638 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:55150. Operação abortada.
+2026-05-27 22:26:15,638 | INFO     | [PROTOCOL] TX (127.0.0.1:55150) -> 304 Not Modified
+2026-05-27 22:26:15,638 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:55150.
+
+2026-05-27 22:26:17,319 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:55156
+2026-05-27 22:26:17,319 | INFO     | [PROTOCOL] RX (127.0.0.1:55156) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:17,319 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:55156. Operação abortada.
+2026-05-27 22:26:17,319 | INFO     | [PROTOCOL] TX (127.0.0.1:55156) -> 304 Not Modified
+2026-05-27 22:26:17,319 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:55156.
+
+2026-05-27 22:26:20,638 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:55168
+2026-05-27 22:26:20,639 | INFO     | [PROTOCOL] RX (127.0.0.1:55168) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:20,639 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:55168. Operação abortada.
+2026-05-27 22:26:20,639 | INFO     | [PROTOCOL] TX (127.0.0.1:55168) -> 304 Not Modified
+2026-05-27 22:26:20,639 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:55168.
+
+2026-05-27 22:26:22,320 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:55184
+2026-05-27 22:26:22,320 | INFO     | [PROTOCOL] RX (127.0.0.1:55184) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:22,320 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:55184. Operação abortada.
+2026-05-27 22:26:22,320 | INFO     | [PROTOCOL] TX (127.0.0.1:55184) -> 304 Not Modified
+2026-05-27 22:26:22,320 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:55184.
+
+2026-05-27 22:26:25,639 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:34974
+2026-05-27 22:26:25,639 | INFO     | [PROTOCOL] RX (127.0.0.1:34974) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:25,639 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:34974. Operação abortada.
+2026-05-27 22:26:25,639 | INFO     | [PROTOCOL] TX (127.0.0.1:34974) -> 304 Not Modified
+2026-05-27 22:26:25,640 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:34974.
+
+2026-05-27 22:26:27,322 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:34988
+2026-05-27 22:26:27,322 | INFO     | [PROTOCOL] RX (127.0.0.1:34988) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:27,322 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:34988. Operação abortada.
+2026-05-27 22:26:27,322 | INFO     | [PROTOCOL] TX (127.0.0.1:34988) -> 304 Not Modified
+2026-05-27 22:26:27,322 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:34988.
+
+2026-05-27 22:26:30,640 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:34996
+2026-05-27 22:26:30,640 | INFO     | [PROTOCOL] RX (127.0.0.1:34996) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:30,641 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:34996. Operação abortada.
+2026-05-27 22:26:30,641 | INFO     | [PROTOCOL] TX (127.0.0.1:34996) -> 304 Not Modified
+2026-05-27 22:26:30,641 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:34996.
+
+2026-05-27 22:26:32,323 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:35004
+2026-05-27 22:26:32,323 | INFO     | [PROTOCOL] RX (127.0.0.1:35004) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:32,323 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:35004. Operação abortada.
+2026-05-27 22:26:32,323 | INFO     | [PROTOCOL] TX (127.0.0.1:35004) -> 304 Not Modified
+2026-05-27 22:26:32,323 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:35004.
+
+2026-05-27 22:26:35,642 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:52214
+2026-05-27 22:26:35,642 | INFO     | [PROTOCOL] RX (127.0.0.1:52214) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:35,642 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:52214. Operação abortada.
+2026-05-27 22:26:35,642 | INFO     | [PROTOCOL] TX (127.0.0.1:52214) -> 304 Not Modified
+2026-05-27 22:26:35,642 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:52214.
+
+2026-05-27 22:26:37,323 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:52224
+2026-05-27 22:26:37,323 | INFO     | [PROTOCOL] RX (127.0.0.1:52224) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:37,323 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:52224. Operação abortada.
+2026-05-27 22:26:37,323 | INFO     | [PROTOCOL] TX (127.0.0.1:52224) -> 304 Not Modified
+2026-05-27 22:26:37,323 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:52224.
+
+2026-05-27 22:26:40,643 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:52240
+2026-05-27 22:26:40,643 | INFO     | [PROTOCOL] RX (127.0.0.1:52240) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:40,644 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:52240. Operação abortada.
+2026-05-27 22:26:40,644 | INFO     | [PROTOCOL] TX (127.0.0.1:52240) -> 304 Not Modified
+2026-05-27 22:26:40,644 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:52240.
+
+2026-05-27 22:26:42,324 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:52254
+2026-05-27 22:26:42,324 | INFO     | [PROTOCOL] RX (127.0.0.1:52254) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:42,324 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:52254. Operação abortada.
+2026-05-27 22:26:42,324 | INFO     | [PROTOCOL] TX (127.0.0.1:52254) -> 304 Not Modified
+2026-05-27 22:26:42,324 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:52254.
+
+2026-05-27 22:26:45,645 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:43252
+2026-05-27 22:26:45,645 | INFO     | [PROTOCOL] RX (127.0.0.1:43252) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:45,645 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:43252. Operação abortada.
+2026-05-27 22:26:45,645 | INFO     | [PROTOCOL] TX (127.0.0.1:43252) -> 304 Not Modified
+2026-05-27 22:26:45,645 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:43252.
+
+2026-05-27 22:26:47,325 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:43256
+2026-05-27 22:26:47,325 | INFO     | [PROTOCOL] RX (127.0.0.1:43256) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:47,325 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:43256. Operação abortada.
+2026-05-27 22:26:47,325 | INFO     | [PROTOCOL] TX (127.0.0.1:43256) -> 304 Not Modified
+2026-05-27 22:26:47,325 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:43256.
+
+2026-05-27 22:26:50,646 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:43260
+2026-05-27 22:26:50,647 | INFO     | [PROTOCOL] RX (127.0.0.1:43260) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:50,647 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:43260. Operação abortada.
+2026-05-27 22:26:50,647 | INFO     | [PROTOCOL] TX (127.0.0.1:43260) -> 304 Not Modified
+2026-05-27 22:26:50,647 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:43260.
+
+2026-05-27 22:26:52,326 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:43262
+2026-05-27 22:26:52,326 | INFO     | [PROTOCOL] RX (127.0.0.1:43262) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:52,326 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:43262. Operação abortada.
+2026-05-27 22:26:52,326 | INFO     | [PROTOCOL] TX (127.0.0.1:43262) -> 304 Not Modified
+2026-05-27 22:26:52,326 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:43262.
+
+2026-05-27 22:26:55,648 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:59554
+2026-05-27 22:26:55,648 | INFO     | [PROTOCOL] RX (127.0.0.1:59554) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:55,648 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:59554. Operação abortada.
+2026-05-27 22:26:55,648 | INFO     | [PROTOCOL] TX (127.0.0.1:59554) -> 304 Not Modified
+2026-05-27 22:26:55,648 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:59554.
+
+2026-05-27 22:26:57,327 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:59564
+2026-05-27 22:26:57,327 | INFO     | [PROTOCOL] RX (127.0.0.1:59564) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:26:57,327 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:59564. Operação abortada.
+2026-05-27 22:26:57,327 | INFO     | [PROTOCOL] TX (127.0.0.1:59564) -> 304 Not Modified
+2026-05-27 22:26:57,328 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:59564.
+
+2026-05-27 22:27:00,649 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:59574
+2026-05-27 22:27:00,649 | INFO     | [PROTOCOL] RX (127.0.0.1:59574) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:00,650 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:59574. Operação abortada.
+2026-05-27 22:27:00,650 | INFO     | [PROTOCOL] TX (127.0.0.1:59574) -> 304 Not Modified
+2026-05-27 22:27:00,650 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:59574.
+
+2026-05-27 22:27:02,328 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:59590
+2026-05-27 22:27:02,329 | INFO     | [PROTOCOL] RX (127.0.0.1:59590) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:02,329 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:59590. Operação abortada.
+2026-05-27 22:27:02,329 | INFO     | [PROTOCOL] TX (127.0.0.1:59590) -> 304 Not Modified
+2026-05-27 22:27:02,329 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:59590.
+
+2026-05-27 22:27:05,651 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48128
+2026-05-27 22:27:05,651 | INFO     | [PROTOCOL] RX (127.0.0.1:48128) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:05,651 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48128. Operação abortada.
+2026-05-27 22:27:05,651 | INFO     | [PROTOCOL] TX (127.0.0.1:48128) -> 304 Not Modified
+2026-05-27 22:27:05,651 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48128.
+
+2026-05-27 22:27:07,330 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48130
+2026-05-27 22:27:07,330 | INFO     | [PROTOCOL] RX (127.0.0.1:48130) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:07,330 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48130. Operação abortada.
+2026-05-27 22:27:07,331 | INFO     | [PROTOCOL] TX (127.0.0.1:48130) -> 304 Not Modified
+2026-05-27 22:27:07,331 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48130.
+
+2026-05-27 22:27:10,652 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48132
+2026-05-27 22:27:10,652 | INFO     | [PROTOCOL] RX (127.0.0.1:48132) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:10,653 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48132. Operação abortada.
+2026-05-27 22:27:10,653 | INFO     | [PROTOCOL] TX (127.0.0.1:48132) -> 304 Not Modified
+2026-05-27 22:27:10,653 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48132.
+
+2026-05-27 22:27:12,332 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48136
+2026-05-27 22:27:12,332 | INFO     | [PROTOCOL] RX (127.0.0.1:48136) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:12,332 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48136. Operação abortada.
+2026-05-27 22:27:12,332 | INFO     | [PROTOCOL] TX (127.0.0.1:48136) -> 304 Not Modified
+2026-05-27 22:27:12,332 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48136.
+
+2026-05-27 22:27:15,654 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:58512
+2026-05-27 22:27:15,654 | INFO     | [PROTOCOL] RX (127.0.0.1:58512) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:15,654 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:58512. Operação abortada.
+2026-05-27 22:27:15,654 | INFO     | [PROTOCOL] TX (127.0.0.1:58512) -> 304 Not Modified
+2026-05-27 22:27:15,654 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:58512.
+
+2026-05-27 22:27:17,333 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:58526
+2026-05-27 22:27:17,334 | INFO     | [PROTOCOL] RX (127.0.0.1:58526) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:17,334 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:58526. Operação abortada.
+2026-05-27 22:27:17,334 | INFO     | [PROTOCOL] TX (127.0.0.1:58526) -> 304 Not Modified
+2026-05-27 22:27:17,334 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:58526.
+
+2026-05-27 22:27:20,655 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:58534
+2026-05-27 22:27:20,656 | INFO     | [PROTOCOL] RX (127.0.0.1:58534) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:20,656 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:58534. Operação abortada.
+2026-05-27 22:27:20,656 | INFO     | [PROTOCOL] TX (127.0.0.1:58534) -> 304 Not Modified
+2026-05-27 22:27:20,656 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:58534.
+
+2026-05-27 22:27:22,335 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:58542
+2026-05-27 22:27:22,335 | INFO     | [PROTOCOL] RX (127.0.0.1:58542) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:22,335 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:58542. Operação abortada.
+2026-05-27 22:27:22,335 | INFO     | [PROTOCOL] TX (127.0.0.1:58542) -> 304 Not Modified
+2026-05-27 22:27:22,336 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:58542.
+
+2026-05-27 22:27:25,657 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:55770
+2026-05-27 22:27:25,657 | INFO     | [PROTOCOL] RX (127.0.0.1:55770) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:25,657 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:55770. Operação abortada.
+2026-05-27 22:27:25,657 | INFO     | [PROTOCOL] TX (127.0.0.1:55770) -> 304 Not Modified
+2026-05-27 22:27:25,657 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:55770.
+
+2026-05-27 22:27:27,336 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:55782
+2026-05-27 22:27:27,337 | INFO     | [PROTOCOL] RX (127.0.0.1:55782) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:27,337 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:55782. Operação abortada.
+2026-05-27 22:27:27,337 | INFO     | [PROTOCOL] TX (127.0.0.1:55782) -> 304 Not Modified
+2026-05-27 22:27:27,337 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:55782.
+
+2026-05-27 22:27:30,658 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:55796
+2026-05-27 22:27:30,659 | INFO     | [PROTOCOL] RX (127.0.0.1:55796) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:30,659 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:55796. Operação abortada.
+2026-05-27 22:27:30,659 | INFO     | [PROTOCOL] TX (127.0.0.1:55796) -> 304 Not Modified
+2026-05-27 22:27:30,659 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:55796.
+
+2026-05-27 22:27:32,338 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:55798
+2026-05-27 22:27:32,338 | INFO     | [PROTOCOL] RX (127.0.0.1:55798) <- CHECK_CONF f69e81c03252c51dca2
+2026-05-27 22:27:32,338 | INFO     | [SYNC]    Obsolescência detectada para 127.0.0.1:55798. Iniciando provisionamento.
+2026-05-27 22:27:32,338 | INFO     | [NETWORK] Data Socket BIND temporário -> tcp://127.0.0.1:8020
+2026-05-27 22:27:32,339 | INFO     | [PROTOCOL] TX (127.0.0.1:55798) -> 150 ACCEPTED PORT 8020
+2026-05-27 22:27:32,339 | INFO     | [SESSION] Canal de DADOS aberto com sucesso. Origem: 127.0.0.1:44028
+2026-05-27 22:27:32,339 | INFO     | [FILE_IO] Transferência concluída. 139 bytes transmitidos.
+2026-05-27 22:27:32,340 | INFO     | [PROTOCOL] TX (127.0.0.1:55798) -> 226 Transfer Complete
+2026-05-27 22:27:32,340 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:55798.
+
+2026-05-27 22:27:35,660 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36178
+2026-05-27 22:27:35,660 | INFO     | [PROTOCOL] RX (127.0.0.1:36178) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:35,660 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36178. Operação abortada.
+2026-05-27 22:27:35,660 | INFO     | [PROTOCOL] TX (127.0.0.1:36178) -> 304 Not Modified
+2026-05-27 22:27:35,660 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36178.
+
+2026-05-27 22:27:37,344 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36180
+2026-05-27 22:27:37,344 | INFO     | [PROTOCOL] RX (127.0.0.1:36180) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:37,345 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36180. Operação abortada.
+2026-05-27 22:27:37,345 | INFO     | [PROTOCOL] TX (127.0.0.1:36180) -> 304 Not Modified
+2026-05-27 22:27:37,345 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36180.
+
+2026-05-27 22:27:40,661 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36192
+2026-05-27 22:27:40,661 | INFO     | [PROTOCOL] RX (127.0.0.1:36192) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:40,661 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36192. Operação abortada.
+2026-05-27 22:27:40,661 | INFO     | [PROTOCOL] TX (127.0.0.1:36192) -> 304 Not Modified
+2026-05-27 22:27:40,661 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36192.
+
+2026-05-27 22:27:42,346 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36204
+2026-05-27 22:27:42,346 | INFO     | [PROTOCOL] RX (127.0.0.1:36204) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:42,346 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36204. Operação abortada.
+2026-05-27 22:27:42,346 | INFO     | [PROTOCOL] TX (127.0.0.1:36204) -> 304 Not Modified
+2026-05-27 22:27:42,346 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36204.
+
+2026-05-27 22:27:45,662 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:45762
+2026-05-27 22:27:45,662 | INFO     | [PROTOCOL] RX (127.0.0.1:45762) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:45,662 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:45762. Operação abortada.
+2026-05-27 22:27:45,662 | INFO     | [PROTOCOL] TX (127.0.0.1:45762) -> 304 Not Modified
+2026-05-27 22:27:45,662 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:45762.
+
+2026-05-27 22:27:47,347 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:45774
+2026-05-27 22:27:47,347 | INFO     | [PROTOCOL] RX (127.0.0.1:45774) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:47,347 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:45774. Operação abortada.
+2026-05-27 22:27:47,348 | INFO     | [PROTOCOL] TX (127.0.0.1:45774) -> 304 Not Modified
+2026-05-27 22:27:47,348 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:45774.
+
+2026-05-27 22:27:50,662 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:45780
+2026-05-27 22:27:50,663 | INFO     | [PROTOCOL] RX (127.0.0.1:45780) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:50,663 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:45780. Operação abortada.
+2026-05-27 22:27:50,663 | INFO     | [PROTOCOL] TX (127.0.0.1:45780) -> 304 Not Modified
+2026-05-27 22:27:50,663 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:45780.
+
+2026-05-27 22:27:52,349 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:45790
+2026-05-27 22:27:52,349 | INFO     | [PROTOCOL] RX (127.0.0.1:45790) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:52,349 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:45790. Operação abortada.
+2026-05-27 22:27:52,349 | INFO     | [PROTOCOL] TX (127.0.0.1:45790) -> 304 Not Modified
+2026-05-27 22:27:52,349 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:45790.
+
+2026-05-27 22:27:55,663 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:60310
+2026-05-27 22:27:55,663 | INFO     | [PROTOCOL] RX (127.0.0.1:60310) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:55,663 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:60310. Operação abortada.
+2026-05-27 22:27:55,664 | INFO     | [PROTOCOL] TX (127.0.0.1:60310) -> 304 Not Modified
+2026-05-27 22:27:55,664 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:60310.
+
+2026-05-27 22:27:57,350 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:60312
+2026-05-27 22:27:57,350 | INFO     | [PROTOCOL] RX (127.0.0.1:60312) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:27:57,351 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:60312. Operação abortada.
+2026-05-27 22:27:57,351 | INFO     | [PROTOCOL] TX (127.0.0.1:60312) -> 304 Not Modified
+2026-05-27 22:27:57,351 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:60312.
+
+2026-05-27 22:28:00,664 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:60314
+2026-05-27 22:28:00,664 | INFO     | [PROTOCOL] RX (127.0.0.1:60314) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:00,664 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:60314. Operação abortada.
+2026-05-27 22:28:00,664 | INFO     | [PROTOCOL] TX (127.0.0.1:60314) -> 304 Not Modified
+2026-05-27 22:28:00,664 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:60314.
+
+2026-05-27 22:28:02,352 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:60316
+2026-05-27 22:28:02,352 | INFO     | [PROTOCOL] RX (127.0.0.1:60316) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:02,352 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:60316. Operação abortada.
+2026-05-27 22:28:02,352 | INFO     | [PROTOCOL] TX (127.0.0.1:60316) -> 304 Not Modified
+2026-05-27 22:28:02,352 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:60316.
+
+2026-05-27 22:28:05,665 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:33986
+2026-05-27 22:28:05,665 | INFO     | [PROTOCOL] RX (127.0.0.1:33986) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:05,665 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:33986. Operação abortada.
+2026-05-27 22:28:05,665 | INFO     | [PROTOCOL] TX (127.0.0.1:33986) -> 304 Not Modified
+2026-05-27 22:28:05,665 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:33986.
+
+2026-05-27 22:28:07,353 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:33996
+2026-05-27 22:28:07,353 | INFO     | [PROTOCOL] RX (127.0.0.1:33996) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:07,353 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:33996. Operação abortada.
+2026-05-27 22:28:07,354 | INFO     | [PROTOCOL] TX (127.0.0.1:33996) -> 304 Not Modified
+2026-05-27 22:28:07,354 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:33996.
+
+2026-05-27 22:28:10,666 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:34010
+2026-05-27 22:28:10,666 | INFO     | [PROTOCOL] RX (127.0.0.1:34010) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:10,666 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:34010. Operação abortada.
+2026-05-27 22:28:10,666 | INFO     | [PROTOCOL] TX (127.0.0.1:34010) -> 304 Not Modified
+2026-05-27 22:28:10,666 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:34010.
+
+2026-05-27 22:28:12,355 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:34022
+2026-05-27 22:28:12,355 | INFO     | [PROTOCOL] RX (127.0.0.1:34022) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:12,355 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:34022. Operação abortada.
+2026-05-27 22:28:12,355 | INFO     | [PROTOCOL] TX (127.0.0.1:34022) -> 304 Not Modified
+2026-05-27 22:28:12,355 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:34022.
+
+2026-05-27 22:28:15,667 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:40018
+2026-05-27 22:28:15,667 | INFO     | [PROTOCOL] RX (127.0.0.1:40018) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:15,667 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:40018. Operação abortada.
+2026-05-27 22:28:15,667 | INFO     | [PROTOCOL] TX (127.0.0.1:40018) -> 304 Not Modified
+2026-05-27 22:28:15,667 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:40018.
+
+2026-05-27 22:28:17,356 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:40022
+2026-05-27 22:28:17,356 | INFO     | [PROTOCOL] RX (127.0.0.1:40022) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:17,356 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:40022. Operação abortada.
+2026-05-27 22:28:17,357 | INFO     | [PROTOCOL] TX (127.0.0.1:40022) -> 304 Not Modified
+2026-05-27 22:28:17,357 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:40022.
+
+2026-05-27 22:28:20,668 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:40036
+2026-05-27 22:28:20,668 | INFO     | [PROTOCOL] RX (127.0.0.1:40036) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:20,668 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:40036. Operação abortada.
+2026-05-27 22:28:20,668 | INFO     | [PROTOCOL] TX (127.0.0.1:40036) -> 304 Not Modified
+2026-05-27 22:28:20,668 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:40036.
+
+2026-05-27 22:28:22,358 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:40050
+2026-05-27 22:28:22,358 | INFO     | [PROTOCOL] RX (127.0.0.1:40050) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:22,358 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:40050. Operação abortada.
+2026-05-27 22:28:22,358 | INFO     | [PROTOCOL] TX (127.0.0.1:40050) -> 304 Not Modified
+2026-05-27 22:28:22,358 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:40050.
+
+2026-05-27 22:28:25,669 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46686
+2026-05-27 22:28:25,669 | INFO     | [PROTOCOL] RX (127.0.0.1:46686) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:25,669 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46686. Operação abortada.
+2026-05-27 22:28:25,669 | INFO     | [PROTOCOL] TX (127.0.0.1:46686) -> 304 Not Modified
+2026-05-27 22:28:25,669 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46686.
+
+2026-05-27 22:28:27,359 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46694
+2026-05-27 22:28:27,360 | INFO     | [PROTOCOL] RX (127.0.0.1:46694) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:27,360 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46694. Operação abortada.
+2026-05-27 22:28:27,360 | INFO     | [PROTOCOL] TX (127.0.0.1:46694) -> 304 Not Modified
+2026-05-27 22:28:27,360 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46694.
+
+2026-05-27 22:28:30,670 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46696
+2026-05-27 22:28:30,670 | INFO     | [PROTOCOL] RX (127.0.0.1:46696) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:30,670 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46696. Operação abortada.
+2026-05-27 22:28:30,670 | INFO     | [PROTOCOL] TX (127.0.0.1:46696) -> 304 Not Modified
+2026-05-27 22:28:30,670 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46696.
+
+2026-05-27 22:28:32,361 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46710
+2026-05-27 22:28:32,363 | INFO     | [PROTOCOL] RX (127.0.0.1:46710) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:32,363 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46710. Operação abortada.
+2026-05-27 22:28:32,364 | INFO     | [PROTOCOL] TX (127.0.0.1:46710) -> 304 Not Modified
+2026-05-27 22:28:32,364 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46710.
+
+2026-05-27 22:28:35,671 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36944
+2026-05-27 22:28:35,671 | INFO     | [PROTOCOL] RX (127.0.0.1:36944) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:35,671 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36944. Operação abortada.
+2026-05-27 22:28:35,671 | INFO     | [PROTOCOL] TX (127.0.0.1:36944) -> 304 Not Modified
+2026-05-27 22:28:35,671 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36944.
+
+2026-05-27 22:28:37,365 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36958
+2026-05-27 22:28:37,365 | INFO     | [PROTOCOL] RX (127.0.0.1:36958) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:37,365 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36958. Operação abortada.
+2026-05-27 22:28:37,365 | INFO     | [PROTOCOL] TX (127.0.0.1:36958) -> 304 Not Modified
+2026-05-27 22:28:37,365 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36958.
+
+2026-05-27 22:28:40,671 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36968
+2026-05-27 22:28:40,671 | INFO     | [PROTOCOL] RX (127.0.0.1:36968) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:40,671 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36968. Operação abortada.
+2026-05-27 22:28:40,672 | INFO     | [PROTOCOL] TX (127.0.0.1:36968) -> 304 Not Modified
+2026-05-27 22:28:40,672 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36968.
+
+2026-05-27 22:28:42,366 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36982
+2026-05-27 22:28:42,366 | INFO     | [PROTOCOL] RX (127.0.0.1:36982) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:42,366 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36982. Operação abortada.
+2026-05-27 22:28:42,366 | INFO     | [PROTOCOL] TX (127.0.0.1:36982) -> 304 Not Modified
+2026-05-27 22:28:42,366 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36982.
+
+2026-05-27 22:28:45,672 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:35402
+2026-05-27 22:28:45,672 | INFO     | [PROTOCOL] RX (127.0.0.1:35402) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:45,672 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:35402. Operação abortada.
+2026-05-27 22:28:45,672 | INFO     | [PROTOCOL] TX (127.0.0.1:35402) -> 304 Not Modified
+2026-05-27 22:28:45,673 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:35402.
+
+2026-05-27 22:28:47,367 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:35410
+2026-05-27 22:28:47,367 | INFO     | [PROTOCOL] RX (127.0.0.1:35410) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:47,368 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:35410. Operação abortada.
+2026-05-27 22:28:47,368 | INFO     | [PROTOCOL] TX (127.0.0.1:35410) -> 304 Not Modified
+2026-05-27 22:28:47,368 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:35410.
+
+2026-05-27 22:28:50,371 | WARNING  | [FILE_IO] Mutação detectada no arquivo de configuração em disco.
+2026-05-27 22:28:50,372 | INFO     | [SYNC]    Novo Hash de referência: bc500179... Versão pronta para deploy.
+2026-05-27 22:28:50,673 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:35414
+2026-05-27 22:28:50,673 | INFO     | [PROTOCOL] RX (127.0.0.1:35414) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:50,673 | INFO     | [SYNC]    Obsolescência detectada para 127.0.0.1:35414. Iniciando provisionamento.
+2026-05-27 22:28:50,673 | INFO     | [NETWORK] Data Socket BIND temporário -> tcp://127.0.0.1:8020
+2026-05-27 22:28:50,673 | INFO     | [PROTOCOL] TX (127.0.0.1:35414) -> 150 ACCEPTED PORT 8020
+2026-05-27 22:28:50,673 | INFO     | [SESSION] Canal de DADOS aberto com sucesso. Origem: 127.0.0.1:44172
+2026-05-27 22:28:50,674 | INFO     | [FILE_IO] Transferência concluída. 139 bytes transmitidos.
+2026-05-27 22:28:50,674 | INFO     | [PROTOCOL] TX (127.0.0.1:35414) -> 226 Transfer Complete
+2026-05-27 22:28:50,674 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:35414.
+
+2026-05-27 22:28:52,369 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:35422
+2026-05-27 22:28:52,369 | INFO     | [PROTOCOL] RX (127.0.0.1:35422) <- CHECK_CONF 88d24bf7b4387691b67
+2026-05-27 22:28:52,369 | INFO     | [SYNC]    Obsolescência detectada para 127.0.0.1:35422. Iniciando provisionamento.
+2026-05-27 22:28:52,369 | INFO     | [NETWORK] Data Socket BIND temporário -> tcp://127.0.0.1:8020
+2026-05-27 22:28:52,369 | INFO     | [PROTOCOL] TX (127.0.0.1:35422) -> 150 ACCEPTED PORT 8020
+2026-05-27 22:28:52,370 | INFO     | [SESSION] Canal de DADOS aberto com sucesso. Origem: 127.0.0.1:44184
+2026-05-27 22:28:52,370 | INFO     | [FILE_IO] Transferência concluída. 139 bytes transmitidos.
+2026-05-27 22:28:52,370 | INFO     | [PROTOCOL] TX (127.0.0.1:35422) -> 226 Transfer Complete
+2026-05-27 22:28:52,370 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:35422.
+
+2026-05-27 22:28:55,677 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41358
+2026-05-27 22:28:55,678 | INFO     | [PROTOCOL] RX (127.0.0.1:41358) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:28:55,678 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41358. Operação abortada.
+2026-05-27 22:28:55,678 | INFO     | [PROTOCOL] TX (127.0.0.1:41358) -> 304 Not Modified
+2026-05-27 22:28:55,678 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41358.
+
+2026-05-27 22:28:57,375 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41366
+2026-05-27 22:28:57,375 | INFO     | [PROTOCOL] RX (127.0.0.1:41366) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:28:57,375 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41366. Operação abortada.
+2026-05-27 22:28:57,375 | INFO     | [PROTOCOL] TX (127.0.0.1:41366) -> 304 Not Modified
+2026-05-27 22:28:57,375 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41366.
+
+2026-05-27 22:29:00,678 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41382
+2026-05-27 22:29:00,678 | INFO     | [PROTOCOL] RX (127.0.0.1:41382) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:00,678 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41382. Operação abortada.
+2026-05-27 22:29:00,679 | INFO     | [PROTOCOL] TX (127.0.0.1:41382) -> 304 Not Modified
+2026-05-27 22:29:00,679 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41382.
+
+2026-05-27 22:29:02,376 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41398
+2026-05-27 22:29:02,377 | INFO     | [PROTOCOL] RX (127.0.0.1:41398) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:02,377 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41398. Operação abortada.
+2026-05-27 22:29:02,377 | INFO     | [PROTOCOL] TX (127.0.0.1:41398) -> 304 Not Modified
+2026-05-27 22:29:02,377 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41398.
+
+2026-05-27 22:29:05,679 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:47458
+2026-05-27 22:29:05,679 | INFO     | [PROTOCOL] RX (127.0.0.1:47458) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:05,679 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:47458. Operação abortada.
+2026-05-27 22:29:05,679 | INFO     | [PROTOCOL] TX (127.0.0.1:47458) -> 304 Not Modified
+2026-05-27 22:29:05,679 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:47458.
+
+2026-05-27 22:29:07,378 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:47460
+2026-05-27 22:29:07,378 | INFO     | [PROTOCOL] RX (127.0.0.1:47460) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:07,378 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:47460. Operação abortada.
+2026-05-27 22:29:07,378 | INFO     | [PROTOCOL] TX (127.0.0.1:47460) -> 304 Not Modified
+2026-05-27 22:29:07,378 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:47460.
+
+2026-05-27 22:29:10,680 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:47472
+2026-05-27 22:29:10,680 | INFO     | [PROTOCOL] RX (127.0.0.1:47472) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:10,680 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:47472. Operação abortada.
+2026-05-27 22:29:10,680 | INFO     | [PROTOCOL] TX (127.0.0.1:47472) -> 304 Not Modified
+2026-05-27 22:29:10,680 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:47472.
+
+2026-05-27 22:29:12,380 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:47476
+2026-05-27 22:29:12,380 | INFO     | [PROTOCOL] RX (127.0.0.1:47476) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:12,380 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:47476. Operação abortada.
+2026-05-27 22:29:12,380 | INFO     | [PROTOCOL] TX (127.0.0.1:47476) -> 304 Not Modified
+2026-05-27 22:29:12,380 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:47476.
+
+2026-05-27 22:29:15,681 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48122
+2026-05-27 22:29:15,681 | INFO     | [PROTOCOL] RX (127.0.0.1:48122) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:15,681 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48122. Operação abortada.
+2026-05-27 22:29:15,681 | INFO     | [PROTOCOL] TX (127.0.0.1:48122) -> 304 Not Modified
+2026-05-27 22:29:15,681 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48122.
+
+2026-05-27 22:29:17,381 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48138
+2026-05-27 22:29:17,381 | INFO     | [PROTOCOL] RX (127.0.0.1:48138) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:17,381 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48138. Operação abortada.
+2026-05-27 22:29:17,382 | INFO     | [PROTOCOL] TX (127.0.0.1:48138) -> 304 Not Modified
+2026-05-27 22:29:17,382 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48138.
+
+2026-05-27 22:29:20,681 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48148
+2026-05-27 22:29:20,682 | INFO     | [PROTOCOL] RX (127.0.0.1:48148) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:20,682 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48148. Operação abortada.
+2026-05-27 22:29:20,682 | INFO     | [PROTOCOL] TX (127.0.0.1:48148) -> 304 Not Modified
+2026-05-27 22:29:20,682 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48148.
+
+2026-05-27 22:29:22,383 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:48162
+2026-05-27 22:29:22,383 | INFO     | [PROTOCOL] RX (127.0.0.1:48162) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:22,383 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:48162. Operação abortada.
+2026-05-27 22:29:22,383 | INFO     | [PROTOCOL] TX (127.0.0.1:48162) -> 304 Not Modified
+2026-05-27 22:29:22,383 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:48162.
+
+2026-05-27 22:29:25,682 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36128
+2026-05-27 22:29:25,682 | INFO     | [PROTOCOL] RX (127.0.0.1:36128) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:25,682 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36128. Operação abortada.
+2026-05-27 22:29:25,683 | INFO     | [PROTOCOL] TX (127.0.0.1:36128) -> 304 Not Modified
+2026-05-27 22:29:25,683 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36128.
+
+2026-05-27 22:29:27,384 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36144
+2026-05-27 22:29:27,384 | INFO     | [PROTOCOL] RX (127.0.0.1:36144) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:27,384 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36144. Operação abortada.
+2026-05-27 22:29:27,385 | INFO     | [PROTOCOL] TX (127.0.0.1:36144) -> 304 Not Modified
+2026-05-27 22:29:27,385 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36144.
+
+2026-05-27 22:29:30,683 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36148
+2026-05-27 22:29:30,683 | INFO     | [PROTOCOL] RX (127.0.0.1:36148) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:30,683 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36148. Operação abortada.
+2026-05-27 22:29:30,683 | INFO     | [PROTOCOL] TX (127.0.0.1:36148) -> 304 Not Modified
+2026-05-27 22:29:30,683 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36148.
+
+2026-05-27 22:29:32,386 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36164
+2026-05-27 22:29:32,386 | INFO     | [PROTOCOL] RX (127.0.0.1:36164) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:32,386 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36164. Operação abortada.
+2026-05-27 22:29:32,386 | INFO     | [PROTOCOL] TX (127.0.0.1:36164) -> 304 Not Modified
+2026-05-27 22:29:32,386 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36164.
+
+2026-05-27 22:29:35,684 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:57396
+2026-05-27 22:29:35,684 | INFO     | [PROTOCOL] RX (127.0.0.1:57396) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:35,684 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:57396. Operação abortada.
+2026-05-27 22:29:35,684 | INFO     | [PROTOCOL] TX (127.0.0.1:57396) -> 304 Not Modified
+2026-05-27 22:29:35,684 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:57396.
+
+2026-05-27 22:29:37,387 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:57412
+2026-05-27 22:29:37,387 | INFO     | [PROTOCOL] RX (127.0.0.1:57412) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:37,388 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:57412. Operação abortada.
+2026-05-27 22:29:37,388 | INFO     | [PROTOCOL] TX (127.0.0.1:57412) -> 304 Not Modified
+2026-05-27 22:29:37,388 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:57412.
+
+2026-05-27 22:29:40,685 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:57426
+2026-05-27 22:29:40,685 | INFO     | [PROTOCOL] RX (127.0.0.1:57426) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:40,685 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:57426. Operação abortada.
+2026-05-27 22:29:40,685 | INFO     | [PROTOCOL] TX (127.0.0.1:57426) -> 304 Not Modified
+2026-05-27 22:29:40,685 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:57426.
+
+2026-05-27 22:29:42,389 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:57436
+2026-05-27 22:29:42,389 | INFO     | [PROTOCOL] RX (127.0.0.1:57436) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:42,389 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:57436. Operação abortada.
+2026-05-27 22:29:42,389 | INFO     | [PROTOCOL] TX (127.0.0.1:57436) -> 304 Not Modified
+2026-05-27 22:29:42,389 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:57436.
+
+2026-05-27 22:29:45,685 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36634
+2026-05-27 22:29:45,685 | INFO     | [PROTOCOL] RX (127.0.0.1:36634) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:45,686 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36634. Operação abortada.
+2026-05-27 22:29:45,686 | INFO     | [PROTOCOL] TX (127.0.0.1:36634) -> 304 Not Modified
+2026-05-27 22:29:45,686 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36634.
+
+2026-05-27 22:29:47,391 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36640
+2026-05-27 22:29:47,391 | INFO     | [PROTOCOL] RX (127.0.0.1:36640) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:47,391 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36640. Operação abortada.
+2026-05-27 22:29:47,391 | INFO     | [PROTOCOL] TX (127.0.0.1:36640) -> 304 Not Modified
+2026-05-27 22:29:47,391 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36640.
+
+2026-05-27 22:29:50,686 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36644
+2026-05-27 22:29:50,686 | INFO     | [PROTOCOL] RX (127.0.0.1:36644) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:50,686 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36644. Operação abortada.
+2026-05-27 22:29:50,687 | INFO     | [PROTOCOL] TX (127.0.0.1:36644) -> 304 Not Modified
+2026-05-27 22:29:50,687 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36644.
+
+2026-05-27 22:29:52,392 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:36658
+2026-05-27 22:29:52,392 | INFO     | [PROTOCOL] RX (127.0.0.1:36658) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:52,393 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:36658. Operação abortada.
+2026-05-27 22:29:52,393 | INFO     | [PROTOCOL] TX (127.0.0.1:36658) -> 304 Not Modified
+2026-05-27 22:29:52,393 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:36658.
+
+2026-05-27 22:29:55,688 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46940
+2026-05-27 22:29:55,688 | INFO     | [PROTOCOL] RX (127.0.0.1:46940) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:55,688 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46940. Operação abortada.
+2026-05-27 22:29:55,688 | INFO     | [PROTOCOL] TX (127.0.0.1:46940) -> 304 Not Modified
+2026-05-27 22:29:55,688 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46940.
+
+2026-05-27 22:29:57,394 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46952
+2026-05-27 22:29:57,394 | INFO     | [PROTOCOL] RX (127.0.0.1:46952) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:29:57,394 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46952. Operação abortada.
+2026-05-27 22:29:57,394 | INFO     | [PROTOCOL] TX (127.0.0.1:46952) -> 304 Not Modified
+2026-05-27 22:29:57,394 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46952.
+
+2026-05-27 22:30:00,689 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46966
+2026-05-27 22:30:00,691 | INFO     | [PROTOCOL] RX (127.0.0.1:46966) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:00,691 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46966. Operação abortada.
+2026-05-27 22:30:00,692 | INFO     | [PROTOCOL] TX (127.0.0.1:46966) -> 304 Not Modified
+2026-05-27 22:30:00,692 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46966.
+
+2026-05-27 22:30:02,395 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:46974
+2026-05-27 22:30:02,396 | INFO     | [PROTOCOL] RX (127.0.0.1:46974) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:02,396 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:46974. Operação abortada.
+2026-05-27 22:30:02,396 | INFO     | [PROTOCOL] TX (127.0.0.1:46974) -> 304 Not Modified
+2026-05-27 22:30:02,396 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:46974.
+
+2026-05-27 22:30:05,693 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:39442
+2026-05-27 22:30:05,693 | INFO     | [PROTOCOL] RX (127.0.0.1:39442) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:05,694 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:39442. Operação abortada.
+2026-05-27 22:30:05,694 | INFO     | [PROTOCOL] TX (127.0.0.1:39442) -> 304 Not Modified
+2026-05-27 22:30:05,694 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:39442.
+
+2026-05-27 22:30:07,397 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:39454
+2026-05-27 22:30:07,397 | INFO     | [PROTOCOL] RX (127.0.0.1:39454) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:07,397 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:39454. Operação abortada.
+2026-05-27 22:30:07,398 | INFO     | [PROTOCOL] TX (127.0.0.1:39454) -> 304 Not Modified
+2026-05-27 22:30:07,398 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:39454.
+
+2026-05-27 22:30:10,695 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:39464
+2026-05-27 22:30:10,695 | INFO     | [PROTOCOL] RX (127.0.0.1:39464) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:10,695 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:39464. Operação abortada.
+2026-05-27 22:30:10,695 | INFO     | [PROTOCOL] TX (127.0.0.1:39464) -> 304 Not Modified
+2026-05-27 22:30:10,696 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:39464.
+
+2026-05-27 22:30:12,399 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:39474
+2026-05-27 22:30:12,399 | INFO     | [PROTOCOL] RX (127.0.0.1:39474) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:12,399 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:39474. Operação abortada.
+2026-05-27 22:30:12,399 | INFO     | [PROTOCOL] TX (127.0.0.1:39474) -> 304 Not Modified
+2026-05-27 22:30:12,399 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:39474.
+
+2026-05-27 22:30:15,696 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:44292
+2026-05-27 22:30:15,697 | INFO     | [PROTOCOL] RX (127.0.0.1:44292) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:15,697 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:44292. Operação abortada.
+2026-05-27 22:30:15,697 | INFO     | [PROTOCOL] TX (127.0.0.1:44292) -> 304 Not Modified
+2026-05-27 22:30:15,697 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:44292.
+
+2026-05-27 22:30:17,400 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:44294
+2026-05-27 22:30:17,400 | INFO     | [PROTOCOL] RX (127.0.0.1:44294) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:17,400 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:44294. Operação abortada.
+2026-05-27 22:30:17,400 | INFO     | [PROTOCOL] TX (127.0.0.1:44294) -> 304 Not Modified
+2026-05-27 22:30:17,401 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:44294.
+
+2026-05-27 22:30:20,698 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:44298
+2026-05-27 22:30:20,698 | INFO     | [PROTOCOL] RX (127.0.0.1:44298) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:20,698 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:44298. Operação abortada.
+2026-05-27 22:30:20,698 | INFO     | [PROTOCOL] TX (127.0.0.1:44298) -> 304 Not Modified
+2026-05-27 22:30:20,699 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:44298.
+
+2026-05-27 22:30:22,401 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:44312
+2026-05-27 22:30:22,401 | INFO     | [PROTOCOL] RX (127.0.0.1:44312) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:22,401 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:44312. Operação abortada.
+2026-05-27 22:30:22,401 | INFO     | [PROTOCOL] TX (127.0.0.1:44312) -> 304 Not Modified
+2026-05-27 22:30:22,401 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:44312.
+
+2026-05-27 22:30:25,700 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:38648
+2026-05-27 22:30:25,700 | INFO     | [PROTOCOL] RX (127.0.0.1:38648) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:25,700 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:38648. Operação abortada.
+2026-05-27 22:30:25,700 | INFO     | [PROTOCOL] TX (127.0.0.1:38648) -> 304 Not Modified
+2026-05-27 22:30:25,700 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:38648.
+
+2026-05-27 22:30:27,402 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:38658
+2026-05-27 22:30:27,402 | INFO     | [PROTOCOL] RX (127.0.0.1:38658) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:27,402 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:38658. Operação abortada.
+2026-05-27 22:30:27,403 | INFO     | [PROTOCOL] TX (127.0.0.1:38658) -> 304 Not Modified
+2026-05-27 22:30:27,403 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:38658.
+
+2026-05-27 22:30:30,701 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:38660
+2026-05-27 22:30:30,701 | INFO     | [PROTOCOL] RX (127.0.0.1:38660) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:30,701 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:38660. Operação abortada.
+2026-05-27 22:30:30,701 | INFO     | [PROTOCOL] TX (127.0.0.1:38660) -> 304 Not Modified
+2026-05-27 22:30:30,701 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:38660.
+
+2026-05-27 22:30:32,404 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:38662
+2026-05-27 22:30:32,404 | INFO     | [PROTOCOL] RX (127.0.0.1:38662) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:32,404 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:38662. Operação abortada.
+2026-05-27 22:30:32,404 | INFO     | [PROTOCOL] TX (127.0.0.1:38662) -> 304 Not Modified
+2026-05-27 22:30:32,404 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:38662.
+
+2026-05-27 22:30:35,702 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:58536
+2026-05-27 22:30:35,702 | INFO     | [PROTOCOL] RX (127.0.0.1:58536) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:35,702 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:58536. Operação abortada.
+2026-05-27 22:30:35,702 | INFO     | [PROTOCOL] TX (127.0.0.1:58536) -> 304 Not Modified
+2026-05-27 22:30:35,702 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:58536.
+
+2026-05-27 22:30:37,405 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:58552
+2026-05-27 22:30:37,406 | INFO     | [PROTOCOL] RX (127.0.0.1:58552) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:37,406 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:58552. Operação abortada.
+2026-05-27 22:30:37,406 | INFO     | [PROTOCOL] TX (127.0.0.1:58552) -> 304 Not Modified
+2026-05-27 22:30:37,406 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:58552.
+
+2026-05-27 22:30:40,702 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:58560
+2026-05-27 22:30:40,703 | INFO     | [PROTOCOL] RX (127.0.0.1:58560) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:40,703 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:58560. Operação abortada.
+2026-05-27 22:30:40,703 | INFO     | [PROTOCOL] TX (127.0.0.1:58560) -> 304 Not Modified
+2026-05-27 22:30:40,703 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:58560.
+
+2026-05-27 22:30:42,407 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:58572
+2026-05-27 22:30:42,407 | INFO     | [PROTOCOL] RX (127.0.0.1:58572) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:42,407 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:58572. Operação abortada.
+2026-05-27 22:30:42,407 | INFO     | [PROTOCOL] TX (127.0.0.1:58572) -> 304 Not Modified
+2026-05-27 22:30:42,407 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:58572.
+
+2026-05-27 22:30:45,703 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41416
+2026-05-27 22:30:45,703 | INFO     | [PROTOCOL] RX (127.0.0.1:41416) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:45,703 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41416. Operação abortada.
+2026-05-27 22:30:45,704 | INFO     | [PROTOCOL] TX (127.0.0.1:41416) -> 304 Not Modified
+2026-05-27 22:30:45,704 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41416.
+
+2026-05-27 22:30:47,408 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41430
+2026-05-27 22:30:47,408 | INFO     | [PROTOCOL] RX (127.0.0.1:41430) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:47,408 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41430. Operação abortada.
+2026-05-27 22:30:47,408 | INFO     | [PROTOCOL] TX (127.0.0.1:41430) -> 304 Not Modified
+2026-05-27 22:30:47,408 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41430.
+
+2026-05-27 22:30:50,704 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41446
+2026-05-27 22:30:50,705 | INFO     | [PROTOCOL] RX (127.0.0.1:41446) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:50,705 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41446. Operação abortada.
+2026-05-27 22:30:50,705 | INFO     | [PROTOCOL] TX (127.0.0.1:41446) -> 304 Not Modified
+2026-05-27 22:30:50,705 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41446.
+
+2026-05-27 22:30:52,409 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:41450
+2026-05-27 22:30:52,409 | INFO     | [PROTOCOL] RX (127.0.0.1:41450) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:52,409 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:41450. Operação abortada.
+2026-05-27 22:30:52,409 | INFO     | [PROTOCOL] TX (127.0.0.1:41450) -> 304 Not Modified
+2026-05-27 22:30:52,409 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:41450.
+
+2026-05-27 22:30:55,706 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:42060
+2026-05-27 22:30:55,706 | INFO     | [PROTOCOL] RX (127.0.0.1:42060) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:55,706 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:42060. Operação abortada.
+2026-05-27 22:30:55,707 | INFO     | [PROTOCOL] TX (127.0.0.1:42060) -> 304 Not Modified
+2026-05-27 22:30:55,707 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:42060.
+
+2026-05-27 22:30:57,410 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:42070
+2026-05-27 22:30:57,410 | INFO     | [PROTOCOL] RX (127.0.0.1:42070) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:30:57,410 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:42070. Operação abortada.
+2026-05-27 22:30:57,410 | INFO     | [PROTOCOL] TX (127.0.0.1:42070) -> 304 Not Modified
+2026-05-27 22:30:57,410 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:42070.
+
+2026-05-27 22:31:00,707 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:42082
+2026-05-27 22:31:00,707 | INFO     | [PROTOCOL] RX (127.0.0.1:42082) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:31:00,707 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:42082. Operação abortada.
+2026-05-27 22:31:00,707 | INFO     | [PROTOCOL] TX (127.0.0.1:42082) -> 304 Not Modified
+2026-05-27 22:31:00,707 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:42082.
+
+2026-05-27 22:31:02,411 | INFO     | [SESSION] Nova conexão entrante estabelecida. Origem: 127.0.0.1:42096
+2026-05-27 22:31:02,412 | INFO     | [PROTOCOL] RX (127.0.0.1:42096) <- CHECK_CONF bc5001798486cc657e7
+2026-05-27 22:31:02,412 | INFO     | [SYNC]    Coerência de cache validada para 127.0.0.1:42096. Operação abortada.
+2026-05-27 22:31:02,412 | INFO     | [PROTOCOL] TX (127.0.0.1:42096) -> 304 Not Modified
+2026-05-27 22:31:02,412 | INFO     | [SESSION] Conexão de controle encerrada para 127.0.0.1:42096.
+
